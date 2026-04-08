@@ -1,6 +1,9 @@
 # Environment
 .env
 
+# Claude
+.claude/
+
 # Virtual environment
 .venv/
 
