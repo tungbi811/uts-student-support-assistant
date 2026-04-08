@@ -1,0 +1,19 @@
+# Environment
+.env
+
+# Virtual environment
+.venv/
+
+# Data (large files)
+data/faiss_index/
+data/raw_pages.json
+data/chunks.json
+data/eval_results.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store

@@ -1,0 +1,29 @@
+scraper:
+  seed_urls:
+    - "https://www.uts.edu.au/current-students"
+    - "https://www.uts.edu.au/for-students/current-students"
+    - "https://www.uts.edu.au/about/leadership-governance/policies/a-z"
+  allowed_prefixes: []  # restrict by path prefix, or [] to crawl all of uts.edu.au
+  max_pages: 150
+  max_depth: 3           # link depth from seed URLs
+  delay: 0.5             # seconds between requests
+  output_path: "data/raw_pages.json"
+
+chunker:
+  chunk_size: 800        # characters per chunk (larger = more context per chunk)
+  chunk_overlap: 150     # overlap between chunks to avoid splitting mid-sentence
+
+embeddings:
+  provider: "openai"     # "openai" or "ollama" — rebuild index if changed
+  model: "text-embedding-3-small"  # openai: "text-embedding-3-small" | ollama: "nomic-embed-text"
+
+vectorstore:
+  index_path: "data/faiss_index"
+
+llm:
+  provider: "openai"     # "openai" (needs OPENAI_API_KEY) or "ollama" (local)
+  model: "gpt-4o-mini"   # openai: "gpt-4o", "gpt-4o-mini" | ollama: "llama3", "mistral", etc.
+  temperature: 0         # 0 = deterministic, 1 = creative
+
+retriever:
+  k: 5                   # number of chunks to retrieve per query

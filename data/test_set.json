@@ -1,0 +1,12 @@
+[
+  {
+    "question": "How do I apply for special consideration at UTS?",
+    "reference": "Your reference answer here.",
+    "expected_source": "special-consideration"
+  },
+  {
+    "question": "What is the late penalty for assignments at UTS?",
+    "reference": "Your reference answer here.",
+    "expected_source": "coursework-assessments-procedure"
+  }
+]
