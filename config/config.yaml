@@ -1,10 +1,9 @@
 scraper:
   seed_urls:
     - "https://www.uts.edu.au/current-students"
-    - "https://www.uts.edu.au/for-students/current-students"
     - "https://www.uts.edu.au/about/leadership-governance/policies/a-z"
   allowed_prefixes: []  # restrict by path prefix, or [] to crawl all of uts.edu.au
-  max_pages: 150
+  max_pages: 300
   max_depth: 3           # link depth from seed URLs
   delay: 0.5             # seconds between requests
   output_path: "data/raw_pages.json"
