@@ -1,17 +1,36 @@
 scraper:
   seed_urls:
-    - "https://www.uts.edu.au/current-students"
-    - "https://www.uts.edu.au/for-students/current-students"
-    - "https://www.uts.edu.au/about/leadership-governance/policies/a-z"
-  allowed_prefixes: []  # restrict by path prefix, or [] to crawl all of uts.edu.au
-  max_pages: 150
-  max_depth: 3           # link depth from seed URLs
+    - "https://www.uts.edu.au"
+  allowed_prefixes:     # restrict by path prefix, or [] to crawl all of uts.edu.au
+    - "/for-students"
+  skip_keywords:        # skip URLs whose path contains any of these substrings
+    - "news"
+    - "events"
+    - "media"
+    - "speakers-and-speeches"
+    - "graduation/speakers"
+    - "alumni"
+    - "blog"
+    - "stories"
+    - "showcase"
+    - "gallery"
+    - "video"
+    - "podcast"
+    - "newsletter"
+    - "archive"
+    - "awards-ceremony"
+    - "award-recipients"
+    - "prizes-awards-and-competitions"
+  max_pages: null        # no page limit — crawl until exhausted
+  max_depth: null        # no depth limit — follow all links
   delay: 0.5             # seconds between requests
+  timeout: 30            # seconds to wait for a page response
+  checkpoint_every: 100   # save to disk every N pages (for resume on disconnect)
   output_path: "data/raw_pages.json"
 
 chunker:
-  chunk_size: 800        # characters per chunk (larger = more context per chunk)
-  chunk_overlap: 150     # overlap between chunks to avoid splitting mid-sentence
+  chunk_size: 1500       # characters per chunk (larger = more context per chunk)
+  chunk_overlap: 200     # overlap between chunks to avoid splitting mid-sentence
 
 embeddings:
   provider: "openai"     # "openai" or "ollama" — rebuild index if changed
@@ -22,8 +41,8 @@ vectorstore:
 
 llm:
   provider: "openai"     # "openai" (needs OPENAI_API_KEY) or "ollama" (local)
-  model: "gpt-4o-mini"   # openai: "gpt-4o", "gpt-4o-mini" | ollama: "llama3", "mistral", etc.
+  model: "gpt-4.1-mini"   # openai: "gpt-4o", "gpt-4o-mini" | ollama: "llama3", "mistral", etc.
   temperature: 0         # 0 = deterministic, 1 = creative
 
 retriever:
-  k: 5                   # number of chunks to retrieve per query
+  k: 6                   # number of chunks to retrieve per query

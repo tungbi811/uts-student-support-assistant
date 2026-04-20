@@ -26,7 +26,8 @@ Standalone question:"""
 
 
 ANSWER_TEMPLATE = """You are a UTS Student Support Assistant.
-Use ONLY the context below to answer. Do not use any outside knowledge.
+Use ONLY the numbered context below to answer. Do not use any outside knowledge.
+Cite sources inline using [1], [2], etc. immediately after the relevant sentence or fact.
 If the context contains a relevant answer, provide it clearly.
 Only say "I couldn't find that in UTS policy — please check uts.edu.au directly." if the context contains absolutely nothing relevant.
 Do NOT say this if you have already provided an answer.
@@ -103,8 +104,8 @@ def build_rag_chain(vectorstore, config):
 
     def format_docs(docs):
         return "\n\n".join(
-            f"Source: {doc.metadata['url']}\n{doc.page_content}"
-            for doc in docs
+            f"[{i+1}] Source: {doc.metadata['url']}\n{doc.page_content}"
+            for i, doc in enumerate(docs)
         )
 
     def run(inputs):
@@ -121,28 +122,29 @@ def build_rag_chain(vectorstore, config):
         docs = retriever.invoke(question)
         context = format_docs(docs)
 
-        return (answer_prompt | llm | StrOutputParser()).invoke({
+        answer = (answer_prompt | llm | StrOutputParser()).invoke({
             "context": context,
             "question": question
         })
 
+        return answer, docs
+
     return run, retriever
 
 
-def ask(chain, retriever, question, chat_history=None):
+def ask(chain, question, chat_history=None):
     print(f"\nQuestion: {question}")
     print("-" * 50)
 
-    answer = chain({"question": question, "chat_history": chat_history or []})
+    answer, docs = chain({"question": question, "chat_history": chat_history or []})
     print(f"Answer: {answer}")
 
-    docs = retriever.invoke(question)
     print("\nSources:")
     seen = set()
-    for doc in docs:
+    for i, doc in enumerate(docs):
         url = doc.metadata["url"]
         if url not in seen:
-            print(f"  - {url}")
+            print(f"  [{i+1}] {url}")
             seen.add(url)
 
     return answer
@@ -167,4 +169,4 @@ if __name__ == "__main__":
     ]
 
     for q in questions:
-        ask(chain, retriever, q)
+        ask(chain, q)

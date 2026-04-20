@@ -73,8 +73,7 @@ def evaluate(config_path="config/config.yaml", test_set_path="data/test_set.json
         print(f"[{i+1}/{len(test_set)}] {question}")
 
         # Get answer and retrieved docs
-        answer = chain({"question": question, "chat_history": []})
-        docs = retriever.invoke(question)
+        answer, docs = chain({"question": question, "chat_history": []})
         sources = [doc.metadata["url"] for doc in docs]
         context = "\n\n".join(doc.page_content for doc in docs)
 

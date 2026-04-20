@@ -32,9 +32,13 @@ def chunk_pages(pages, chunk_size=800, chunk_overlap=150):
     return chunks
 
 def save_chunks(chunks, output_path="data/chunks.json"):
+    seen = set()
+    unique = [c for c in chunks if not (c["text"] in seen or seen.add(c["text"]))]
+    if len(unique) < len(chunks):
+        print(f"Removed {len(chunks) - len(unique)} duplicate chunks")
     with open(output_path, "w") as f:
-        json.dump(chunks, f, indent=2)
-    print(f"Saved {len(chunks)} chunks to {output_path}")
+        json.dump(unique, f, indent=2)
+    print(f"Saved {len(unique)} chunks to {output_path}")
 
 if __name__ == "__main__":
     config = load_config()
