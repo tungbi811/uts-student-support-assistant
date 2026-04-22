@@ -4,7 +4,7 @@ Run the full ingestion pipeline: scrape → chunk → embed
 import yaml
 from scraper import load_config as scraper_config, crawl, save_pages
 from chunker import load_pages, chunk_pages, save_chunks
-from embedder import load_config, load_chunks, build_vectorstore, save_vectorstore
+from embedder import load_config, load_chunks, build_vectorstore, save_vectorstore, get_embeddings
 
 
 def run_pipeline(config_path="config/config.yaml"):
@@ -21,10 +21,12 @@ def run_pipeline(config_path="config/config.yaml"):
     print("Step 2/3: Chunking")
     print("=" * 50)
     pages = load_pages(config["scraper"]["output_path"])
+    embeddings = get_embeddings(config)
     chunks = chunk_pages(
         pages,
-        chunk_size=config["chunker"]["chunk_size"],
-        chunk_overlap=config["chunker"]["chunk_overlap"],
+        embeddings=embeddings,
+        breakpoint_threshold_type=config["chunker"]["breakpoint_threshold_type"],
+        breakpoint_threshold_amount=config["chunker"]["breakpoint_threshold_amount"],
     )
     save_chunks(chunks)
 
