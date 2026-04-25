@@ -45,9 +45,4 @@ llm:
   temperature: 0         # 0 = deterministic, 1 = creative
 
 retriever:
-  k: 6                   # number of chunks to keep after reranking
-  fetch_k: 20            # number of chunks to fetch before reranking
-
-reranker:
-  enabled: true
-  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"  # fast & accurate cross-encoder
+  k: 6                   # number of chunks to retrieve per query

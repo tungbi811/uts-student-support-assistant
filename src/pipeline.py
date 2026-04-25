@@ -2,7 +2,7 @@
 Run the full ingestion pipeline: scrape → chunk → embed
 """
 import yaml
-from scraper import load_config as scraper_config, crawl, save_pages
+from scraper import crawl, save_pages
 from chunker import load_pages, chunk_pages, save_chunks
 from embedder import load_config, load_chunks, build_vectorstore, save_vectorstore, get_embeddings
 

@@ -3,6 +3,9 @@ import sys
 import urllib.parse
 import streamlit as st
 from langchain_core.messages import HumanMessage, AIMessage
+from langchain_openai import ChatOpenAI
+from langchain_core.prompts import PromptTemplate
+from langchain_core.output_parsers import StrOutputParser
 
 sys.path.insert(0, "src")
 from rag import load_config, load_vectorstore, build_rag_chain
@@ -40,17 +43,22 @@ st.markdown("""
     margin: 0.25rem 0 0;
 }
 
-/* Sample question buttons */
+/* Sample question & suggestion buttons */
+div[data-testid="stButton"] {
+    width: fit-content !important;
+}
 div[data-testid="stButton"] button {
     font-size: 0.8rem;
-    padding: 0.3rem 0.6rem;
-    border-radius: 1rem;
+    padding: 0.35rem 1.2rem;
+    border-radius: 1.5rem;
     border: 1px solid #d1d5db;
     background: white;
     color: #374151;
-    white-space: normal;
+    white-space: nowrap;
     text-align: left;
     height: auto;
+    width: fit-content !important;
+    line-height: 1.4;
 }
 div[data-testid="stButton"] button:hover {
     border-color: #00A9CE;
@@ -112,7 +120,6 @@ div[data-testid="stButton"] button:hover {
 
 
 def build_citation_map(docs):
-    """Build {chunk_number: (url, fragment_url)} for all retrieved chunks."""
     citation_map = {}
     for i, doc in enumerate(docs, start=1):
         url = doc.metadata["url"]
@@ -122,13 +129,6 @@ def build_citation_map(docs):
 
 
 def remap_citations(answer, citation_map):
-    """
-    Renumber citations sequentially by order of first appearance,
-    collapsing multiple chunk numbers that share the same URL into one number.
-    e.g. if chunks [1],[3],[5] all point to url_a → all become [1].
-    Returns (remapped_answer, remapped_citation_map).
-    """
-    # Collect cited chunk numbers in order of first appearance
     cited_order = []
     seen_nums = set()
     for m in re.finditer(r'\[(\d+(?:,\s*\d+)*)\]', answer):
@@ -137,7 +137,6 @@ def remap_citations(answer, citation_map):
                 cited_order.append(n)
                 seen_nums.add(n)
 
-    # Build remap: chunk_num → sequential_num, deduplicating by URL
     url_to_seq = {}
     remap = {}
     new_citation_map = {}
@@ -152,22 +151,18 @@ def remap_citations(answer, citation_map):
             seq += 1
         remap[orig] = url_to_seq[url]
 
-    # Rewrite answer, removing duplicates within the same bracket
     def replace(m):
         nums = [int(x.strip()) for x in m.group(1).split(",")]
         seq_nums = list(dict.fromkeys(remap[n] for n in nums if n in remap))
         return f"[{', '.join(str(s) for s in seq_nums)}]" if seq_nums else m.group(0)
 
     remapped_answer = re.sub(r'\[(\d+(?:,\s*\d+)*)\]', replace, answer)
-
-    # Move citations that sit before a sentence-ending period to after it
-    # "text [1]." → "text.[1]"  |  "text [1] [2]." → "text.[1][2]"
+    remapped_answer = re.sub(r'(\[\d+\])(\s*\1)+', r'\1', remapped_answer)
     remapped_answer = re.sub(
         r'(\s*(?:\[[\d,\s]+\]\s*)+)([.!?])',
         lambda m: m.group(2) + re.sub(r'\s+', '', m.group(1)),
         remapped_answer
     )
-
     return remapped_answer, new_citation_map
 
 
@@ -185,11 +180,52 @@ def _cite_badge(n, citation_map):
 
 
 def render_citations(text, citation_map):
-    """Replace [N] or [N, M, ...] with hoverable badges linking to source pages."""
     def replace(m):
         numbers = [int(x.strip()) for x in m.group(1).split(",")]
         return "".join(_cite_badge(n, citation_map) for n in numbers)
     return re.sub(r'\[(\d+(?:,\s*\d+)*)\]', replace, text)
+
+
+def render_suggestions(questions, key_suffix=""):
+    """Render suggestions: pair short questions on the same row, long ones solo."""
+    SHORT = 45  # characters threshold to share a row
+    i = 0
+    while i < len(questions):
+        q = questions[i]
+        next_q = questions[i + 1] if i + 1 < len(questions) else None
+        if next_q and len(q) <= SHORT and len(next_q) <= SHORT:
+            cols = st.columns([len(q), len(next_q)])
+            for col, question in zip(cols, [q, next_q]):
+                if col.button(f"↳ {question}", key=f"sug_{key_suffix}_{question}", use_container_width=False):
+                    st.session_state.pending_question = question
+                    st.rerun()
+            i += 2
+        else:
+            if st.button(f"↳ {q}", key=f"sug_{key_suffix}_{q}", use_container_width=False):
+                st.session_state.pending_question = q
+                st.rerun()
+            i += 1
+
+
+SUGGESTION_PROMPT = PromptTemplate.from_template(
+    """Based on this Q&A about UTS student policies, suggest 3 short follow-up questions a student might ask next.
+Return only the 3 questions, one per line, no numbering, no bullets, no extra text.
+
+Question: {question}
+Answer: {answer}
+
+3 follow-up questions:"""
+)
+
+
+def generate_suggestions(question, answer, config):
+    llm = ChatOpenAI(model=config["llm"]["model"], temperature=0.5)
+    result = (SUGGESTION_PROMPT | llm | StrOutputParser()).invoke({
+        "question": question,
+        "answer": answer,
+    })
+    suggestions = [s.strip() for s in result.strip().split("\n") if s.strip()]
+    return suggestions[:3]
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
@@ -206,9 +242,9 @@ def load_chain():
     config = load_config()
     vectorstore = load_vectorstore(config)
     chain, retriever = build_rag_chain(vectorstore, config)
-    return chain, retriever
+    return chain, retriever, config
 
-chain, _ = load_chain()
+chain, _, config = load_chain()
 
 # ── Session state ─────────────────────────────────────────────────────────────
 if "messages" not in st.session_state:
@@ -217,30 +253,45 @@ if "pending_question" not in st.session_state:
     st.session_state.pending_question = None
 
 SAMPLE_QUESTIONS = [
-    "How do I apply for special consideration?",
-    "What is the late penalty for assignments?",
-    "What counts as academic misconduct?",
-    "How do I withdraw from a subject?",
-    "How do I appeal a grade?",
+    "How do I apply for a leave of absence?",
+    "How do I get my student ID card?",
+    "What support is available for students with a disability?",
+    "How do I enrol in subjects for next semester?",
+    "What is the maximum study load per session?",
 ]
 
 # ── Sample questions (shown only before first message) ────────────────────────
 if not st.session_state.messages:
     st.markdown("**Try asking:**")
-    cols = st.columns(len(SAMPLE_QUESTIONS))
-    for col, question in zip(cols, SAMPLE_QUESTIONS):
-        if col.button(question, use_container_width=True):
-            st.session_state.pending_question = question
-            st.rerun()
+    SHORT = 45
+    i = 0
+    while i < len(SAMPLE_QUESTIONS):
+        q = SAMPLE_QUESTIONS[i]
+        next_q = SAMPLE_QUESTIONS[i + 1] if i + 1 < len(SAMPLE_QUESTIONS) else None
+        if next_q and len(q) <= SHORT and len(next_q) <= SHORT:
+            cols = st.columns([len(q), len(next_q)])
+            for col, question in zip(cols, [q, next_q]):
+                if col.button(question, key=f"sample_{question}", use_container_width=False):
+                    st.session_state.pending_question = question
+                    st.rerun()
+            i += 2
+        else:
+            if st.button(q, key=f"sample_{q}", use_container_width=False):
+                st.session_state.pending_question = q
+                st.rerun()
+            i += 1
 
 # ── Chat history ──────────────────────────────────────────────────────────────
-for msg in st.session_state.messages:
+last_idx = len(st.session_state.messages) - 1
+for i, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
         if msg["role"] == "assistant" and msg.get("citation_map"):
             st.markdown(
                 render_citations(msg["content"], msg["citation_map"]),
                 unsafe_allow_html=True,
             )
+            if i == last_idx and msg.get("suggestions"):
+                render_suggestions(msg["suggestions"], key_suffix=str(i))
         else:
             st.markdown(msg["content"])
 
@@ -268,14 +319,19 @@ if prompt:
 
         with st.status("Searching UTS policies...", expanded=False):
             answer, docs = chain({"question": prompt, "chat_history": chat_history})
+            suggestions = generate_suggestions(prompt, answer, config)
 
         citation_map = build_citation_map(docs)
         answer, citation_map = remap_citations(answer, citation_map)
         st.markdown(render_citations(answer, citation_map), unsafe_allow_html=True)
 
+        if suggestions:
+            render_suggestions(suggestions, key_suffix="new")
+
     st.session_state.messages.append({
         "role": "assistant",
-        "content": answer,      # remapped answer (with [1],[2],[3]...)
+        "content": answer,
         "citation_map": citation_map,
+        "suggestions": suggestions,
     })
     st.rerun()

@@ -6,7 +6,6 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.messages import HumanMessage, AIMessage
 from dotenv import load_dotenv
-from sentence_transformers import CrossEncoder
 
 load_dotenv()
 
@@ -86,24 +85,12 @@ def format_chat_history(messages):
     return "\n".join(lines)
 
 
-def build_reranker(config):
-    reranker_cfg = config.get("reranker", {})
-    if not reranker_cfg.get("enabled", False):
-        return None
-    model_name = reranker_cfg.get("model", "cross-encoder/ms-marco-MiniLM-L-6-v2")
-    print(f"Loading reranker: {model_name}")
-    return CrossEncoder(model_name)
-
-
 def build_rag_chain(vectorstore, config):
     k = config["retriever"]["k"]
-    fetch_k = config["retriever"].get("fetch_k", k * 3)
 
     retriever = vectorstore.as_retriever(
-        search_kwargs={"k": fetch_k}
+        search_kwargs={"k": k}
     )
-
-    reranker = build_reranker(config)
 
     llm = load_llm(config)
 
@@ -135,13 +122,6 @@ def build_rag_chain(vectorstore, config):
             })
 
         docs = retriever.invoke(question)
-
-        if reranker is not None:
-            pairs = [(question, doc.page_content) for doc in docs]
-            scores = reranker.predict(pairs)
-            ranked = sorted(zip(scores, docs), key=lambda x: x[0], reverse=True)
-            docs = [doc for _, doc in ranked[:k]]
-
         context = format_docs(docs)
 
         answer = (answer_prompt | llm | StrOutputParser()).invoke({
@@ -163,11 +143,13 @@ def ask(chain, question, chat_history=None):
 
     print("\nSources:")
     seen = set()
-    for i, doc in enumerate(docs):
+    seq = 1
+    for doc in docs:
         url = doc.metadata["url"]
         if url not in seen:
-            print(f"  [{i+1}] {url}")
+            print(f"  [{seq}] {url}")
             seen.add(url)
+            seq += 1
 
     return answer
 
