@@ -1,12 +1,602 @@
 [
   {
-    "question": "How do I apply for special consideration at UTS?",
-    "reference": "Your reference answer here.",
-    "expected_source": "special-consideration"
+    "question": "Can I request a room that meets my special needs due to a disability?",
+    "reference": "You should let UTS Housing know about any special needs due to a disability on your application form, and they will discuss your needs with you and allocate an appropriate room.",
+    "expected_source": "about-residential-life",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/uts-housing-service/residential-life/about-residential-life"
   },
   {
-    "question": "What is the late penalty for assignments at UTS?",
-    "reference": "Your reference answer here.",
-    "expected_source": "coursework-assessments-procedure"
+    "question": "What opportunities does UTS offer for IT students to gain real-world industry experience while studying?",
+    "reference": "UTS offers IT students paid industry work through programs like the BIT Co-op and the UTS IDEA Cadetship, allowing them to gain real-world experience while studying.",
+    "expected_source": "information-technology",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/information-technology"
+  },
+  {
+    "question": "Where can I find information about accommodation options at UTS?",
+    "reference": "UTS offers a range of fully furnished and self-catered housing styles to suit your needs.",
+    "expected_source": "campus",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/campus"
+  },
+  {
+    "question": "Is prior work experience helpful when studying law at UTS?",
+    "reference": "Yes, prior work experience can be instrumental to success in the UTS Juris Doctor, as it provides valuable insights and business acumen that can benefit law studies and future legal careers.",
+    "expected_source": "think-youre-too-old-study-law-think-again",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/law/think-youre-too-old-study-law-think-again"
+  },
+  {
+    "question": "How did Harshy Premarathne manage postgraduate study alongside work and family?",
+    "reference": "Harshy Premarathne completed an Executive Master of Business Administration while working full time and raising two young children.",
+    "expected_source": "9-tips-for-juggling-postgraduate-study-and-life",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/postgraduate/9-tips-for-juggling-postgraduate-study-and-life"
+  },
+  {
+    "question": "Can I complete the Juris Doctor degree fully online?",
+    "reference": "The Juris Doctor degree is not delivered fully online; while many subjects offer online options, some require on-campus attendance.",
+    "expected_source": "juris-doctor",
+    "url": "https://www.uts.edu.au/for-students/law/juris-doctor"
+  },
+  {
+    "question": "Is the Bachelor of Engineering (Honours) in Mechanical and Mechatronic Engineering accredited?",
+    "reference": "Yes, the Bachelor of Engineering (Honours) degrees in Mechanical Engineering, Mechanical and Mechatronic Engineering, and Mechatronic Engineering are fully accredited by Engineers Australia and recognised internationally by signatories to the Washington Accord.",
+    "expected_source": "mechanical-and-mechatronic-engineering",
+    "url": "https://www.uts.edu.au/for-students/engineering/mechanical-and-mechatronic-engineering"
+  },
+  {
+    "question": "How does UTS handle my personal information and privacy?",
+    "reference": "UTS collects only necessary personal information to administer student programs, uses it for the purpose it was collected, seeks permission to use it for other purposes, and shares it with other organisations only with consent or legal obligation.",
+    "expected_source": "privacy-and-confidentiality",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/your-student-info/privacy-and-confidentiality"
+  },
+  {
+    "question": "How is Yuka Maruyama using Augmented Reality in her PhD research at UTS?",
+    "reference": "Yuka Maruyama is developing a PhD proposal to design inclusive, Augmented Reality-based learning tools to help children with disabilities in developing countries, focusing on helping children in Cambodia learn English.",
+    "expected_source": "redesigning-the-world-through-interaction-design",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/information-technology/redesigning-the-world-through-interaction-design"
+  },
+  {
+    "question": "How can international students make an enquiry about courses at UTS?",
+    "reference": "International students can make an enquiry by completing the international student enquiry form on the UTS website, which will be used to respond to their enquiry and may also provide general information about the university.",
+    "expected_source": "sustainability-and-environment",
+    "url": "https://www.uts.edu.au/for-students/international-studies-and-social-sciences/sustainability-and-environment"
+  },
+  {
+    "question": "What advice does Lily Barnett give for choosing what to study at university?",
+    "reference": "Lily advises students to imagine where they see themselves in 10 years and to choose a path that motivates them to keep going, knowing that university is challenging but rewarding if you put in the effort.",
+    "expected_source": "lily-barnett-dishes-out-good-advice-for-future-animators",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/communication/lily-barnett-dishes-out-good-advice-for-future-animators"
+  },
+  {
+    "question": "What does it mean to be a dementia-capable legal practitioner?",
+    "reference": "Being a dementia-capable legal practitioner means delivering legal services that are ethical, effective, and fit for purpose in a changing society, rather than specialising in health care.",
+    "expected_source": "are-you-a-dementia-capable-legal-practitioner",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/law/are-you-a-dementia-capable-legal-practitioner"
+  },
+  {
+    "question": "Can I choose a second major with a higher ATAR if my first major has a lower ATAR in the Bachelor of Communication?",
+    "reference": "Yes, in the Bachelor of Communication, all students select a second major once they commence the course, allowing them to study a major with a typically higher ATAR even if their first major has a lower ATAR.",
+    "expected_source": "pathways-communication",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/communication/career-advice/pathways-communication"
+  },
+  {
+    "question": "Who can I contact for approval of assessment adjustments if I have a disability?",
+    "reference": "Academic Liaison Officers (ALOs) are responsible for determining approval of assessment adjustment arrangements for students with disabilities.",
+    "expected_source": "contacts",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-transdisciplinary-school/contacts"
+  },
+  {
+    "question": "How do I apply for an undergraduate course at UTS?",
+    "reference": "Most undergraduate course applications are made through the Universities Admissions Centre (UAC), although some courses and admissions pathways allow direct applications.",
+    "expected_source": "domestic-applicants",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/domestic-applicants"
+  },
+  {
+    "question": "What kind of support does UTS offer if I'm struggling with managing my study, work, and personal life?",
+    "reference": "UTS offers free and confidential counselling for study-related, personal, psychological, and administrative difficulties, as well as practical steps to help manage time and balance study, work, and life.",
+    "expected_source": "wellbeing-money-and-housing",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/academic-support/academic-integrity/wellbeing-money-and-housing"
+  },
+  {
+    "question": "Can you explain the basic steps to apply AI to a project with an example?",
+    "reference": "First, identify the problem. Then determine what data you will use and where it comes from, whether it's available online or you need to collect it. Next, check if the data has labels, split it into training and testing datasets, and finally decide which algorithm to use.",
+    "expected_source": "top-professions-impacted-ai-and-skills-future",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/undergraduate/top-professions-impacted-ai-and-skills-future"
+  },
+  {
+    "question": "What qualities does UTS encourage for generating new and creative ideas?",
+    "reference": "UTS encourages having an inquisitive mind, practicing radical collaboration by working with diverse people, taking action without overthinking, being mindful of the process, and re-framing ideas.",
+    "expected_source": "careers",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/opportunities/careers"
+  },
+  {
+    "question": "How can studying Engineering at UTS prepare me for different career paths?",
+    "reference": "Studying Engineering at UTS provides a foundation for many possible careers, as seen in examples like Fotini who views it as a base for multiple career options.",
+    "expected_source": "a-journey-starting-with-saying-yes",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/engineering/a-journey-starting-with-saying-yes"
+  },
+  {
+    "question": "Who should I contact if I have general questions about scholarships at UTS?",
+    "reference": "You should contact the UTS scholarships team by emailing scholarships@uts.edu.au for general enquiries and support relating to scholarships.",
+    "expected_source": "contact-us",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/contact-us"
+  },
+  {
+    "question": "What kind of practical experiences can I expect in the TESOL and Applied Linguistics postgraduate courses at UTS?",
+    "reference": "The TESOL and Applied Linguistics postgraduate courses at UTS offer hands-on experiences and practical learning, blending research, theory, and pedagogical best practice with practical placements.",
+    "expected_source": "tesol-and-applied-linguistics",
+    "url": "https://www.uts.edu.au/for-students/education/tesol-and-applied-linguistics"
+  },
+  {
+    "question": "Can I go on a student exchange if I\u2019m enrolled in the standalone Bachelor of Nursing degree?",
+    "reference": "In the standalone Bachelor of Nursing degree, there\u2019s no opportunity for overseas exchange.",
+    "expected_source": "nursing-and-midwifery",
+    "url": "https://www.uts.edu.au/for-students/health/nursing-and-midwifery"
+  },
+  {
+    "question": "What is the UTS Launch program and how can it benefit me as a student?",
+    "reference": "The UTS Launch program offers students the chance to work in teams with academic guidance to think, build, innovate, create, and solve real-life problems through hands-on projects, helping them connect their studies to practical applications.",
+    "expected_source": "uts-launch",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-engineering-and-information-technology/uts-launch"
+  },
+  {
+    "question": "How can I access the TalkCampus app as a UTS student?",
+    "reference": "All current UTS students get free access to the TalkCampus app by downloading it from the App Store or Google Play and signing up with their UTS student email address.",
+    "expected_source": "talkcampus-app",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/counselling-service-and-self-help/self-help-resources/talkcampus-app"
+  },
+  {
+    "question": "Where can I get a Confirmation of Enrolment (CoE) for my student visa extension?",
+    "reference": "You can get a Confirmation of Enrolment (CoE) for your student visa extension from the International Student Centre at UTS.",
+    "expected_source": "international-students",
+    "url": "https://www.uts.edu.au/for-students/current-students/international-students"
+  },
+  {
+    "question": "Where can I find a quiet place to study on campus?",
+    "reference": "The silent reading room in Building 2 is the quietest space on campus and is highly effective for focused study.",
+    "expected_source": "my-honest-review-of-uts-after-one-semester-as-a-business-student",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/business/my-honest-review-of-uts-after-one-semester-as-a-business-student"
+  },
+  {
+    "question": "How can international students make an enquiry about courses at UTS?",
+    "reference": "International students can make an enquiry by completing the international student enquiry form, which will be used to respond to their enquiry and may also provide general information about the university.",
+    "expected_source": "music-and-sound-design",
+    "url": "https://www.uts.edu.au/for-students/communication/music-and-sound-design"
+  },
+  {
+    "question": "What scholarships or academic recognitions has Anubhav received while studying at UTS?",
+    "reference": "Anubhav received the Postgraduate Academic Excellence scholarship when he applied to UTS and was also listed on the Dean\u2019s list last semester.",
+    "expected_source": "meet-anubhav-master-engineering-extension",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/engineering/meet-anubhav-master-engineering-extension"
+  },
+  {
+    "question": "What happens during a typical one-hour U:PASS session?",
+    "reference": "In a typical one-hour U:PASS session, you compare notes, work through problems and past exam questions, share study tips, and discuss course material with other students and your Peer Leader, who helps you learn but does not teach.",
+    "expected_source": "session-info",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/upass/join-session/session-info"
+  },
+  {
+    "question": "Can I study the Graduate Certificate in Project Management while working full-time?",
+    "reference": "Yes, the course content is designed with working professionals in mind, offering interactive block mode study that allows you to schedule your learning to fit into your daily life.",
+    "expected_source": "5-reasons-study-project-management",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/design-architecture-and-building/5-reasons-study-project-management"
+  },
+  {
+    "question": "Does UTS offer any support for students struggling with mathematics?",
+    "reference": "Yes, UTS has a Mathematics and Science Study Centre that provides support to all undergraduate and postgraduate students in introductory mathematical and quantitative areas, including statistics.",
+    "expected_source": "study-resources",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-science/study-resources"
+  },
+  {
+    "question": "How is digital finance changing the way people can invest in real estate?",
+    "reference": "Digital finance allows real estate to be transformed into digital assets that can be split into smaller pieces, enabling buyers to access the market without purchasing an entire property.",
+    "expected_source": "the-future-of-finance-is-digital",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/business/the-future-of-finance-is-digital"
+  },
+  {
+    "question": "How can I make an enquiry as an international student about courses at UTS?",
+    "reference": "International students can make an enquiry by completing the international student enquiry form on the UTS website, which will be used to respond to their enquiry and may also provide general university information.",
+    "expected_source": "education",
+    "url": "https://www.uts.edu.au/for-students/education/education"
+  },
+  {
+    "question": "How do I find the course completion requirements for my UTS course?",
+    "reference": "You should check the handbook for your course completion requirements from the year you commenced your course. If you started in 2024 or earlier, use the Handbook archive; if you started in 2025 or later, use the UTS Handbook.",
+    "expected_source": "course-and-subject-information",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/your-enrolment/course-and-subject-information"
+  },
+  {
+    "question": "Can I use Google Translate to translate my assessment from another language into English?",
+    "reference": "No, you should not use translation tools like Google Translate to translate your assessment into English as this is considered academic misconduct.",
+    "expected_source": "create-something-original",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/academic-support/academic-integrity/create-something-original"
+  },
+  {
+    "question": "Where can I find the Lowest Selection Rank for a course I want to apply for at UTS?",
+    "reference": "The Lowest Selection Rank for a recent school leaver in the most recent intake period is displayed on the course information pages.",
+    "expected_source": "admissions-stats-tool",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/eligibility/admissions-stats-tool"
+  },
+  {
+    "question": "Where can I find information about assessment submission and extension requests for my UTS Law short course?",
+    "reference": "You should refer to the short course\u2019s UTS Open Canvas site and the official course outline for guidance on assessments, submission requests for extension and special consideration, and final results. If unsure, contact the Law Short Courses team at law.shortcourses@uts.edu.au.",
+    "expected_source": "short-courses",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law/assessment/short-courses"
+  },
+  {
+    "question": "How can I use GenAI tools to help generate critical questions about a text I am reading?",
+    "reference": "You can write your own short summary of the text and input it into a GenAI tool, asking it to generate critical questions. Then, compare the tool\u2019s questions with your own to find any additional useful questions.",
+    "expected_source": "assisting-reading",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/genai-learning-resources/assisting-reading"
+  },
+  {
+    "question": "What course areas can I choose from as a domestic student interested in studying at UTS?",
+    "reference": "You can choose from course areas including Animation and Visualisation, Architecture, Building, Business, Communication, Criminology, Design, Education, Engineering, Health, Information Technology, International Studies and Social Sciences, Law, Public Policy and Governance, Science and Mathematics, Sustainability, and Transdisciplinary Innovation.",
+    "expected_source": "high-school-students",
+    "url": "https://www.uts.edu.au/for-students/high-school-students"
+  },
+  {
+    "question": "What opportunities did you get after switching to UTS?",
+    "reference": "After switching to UTS, I had opportunities to intern at SXSW Sydney and NSW Parliament, and gained leadership experience through roles in ActivateUTS clubs and as a student board director.",
+    "expected_source": "three-students-on-why-they-switched-to-uts",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/undergraduate/three-students-on-why-they-switched-to-uts"
+  },
+  {
+    "question": "What kind of experience do students get in the Mechanical and Mechatronic Design Industry Studio?",
+    "reference": "Students solve real-world engineering problems with actual clients, work hands-on by creating prototypes, and learn professional communication by interacting with clients before they graduate.",
+    "expected_source": "mechanical-and-mechatronic-design",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-engineering-and-information-technology/undergraduate/industry-studio/mechanical-and-mechatronic-design"
+  },
+  {
+    "question": "Where is the UTS Law faculty located now?",
+    "reference": "The UTS Law faculty is located within floors 14 to 16 of the UTS Central building (Building 2) in the Broadway area.",
+    "expected_source": "current-students-information-law",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law"
+  },
+  {
+    "question": "What subjects are covered in the Bachelor of Construction Project Management at UTS?",
+    "reference": "The course includes a little bit of psychology, business, law, and management, making it a very diverse course.",
+    "expected_source": "supporting-tomorrows-construction-project-managers",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/design-architecture-and-building/supporting-tomorrows-construction-project-managers"
+  },
+  {
+    "question": "What are some things AI currently struggles with according to the UTS text?",
+    "reference": "AI struggles with general knowledge, understanding humour, showing empathy, emotional intelligence, and ethical considerations when interacting with people.",
+    "expected_source": "top-professions-impacted-ai-and-skills-future",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/undergraduate/top-professions-impacted-ai-and-skills-future"
+  },
+  {
+    "question": "Can I get hands-on lab experience early in my science degree at UTS?",
+    "reference": "Yes, at UTS, first-year science students have practical components in their core subjects from the start, allowing them to gain hands-on lab experience early in their degree.",
+    "expected_source": "your-open-day-journey-into-science-at-uts",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/science/your-open-day-journey-into-science-at-uts"
+  },
+  {
+    "question": "What factors does UTS consider when making offers to study?",
+    "reference": "UTS makes offers based on the number of places available, the number of applicants, and the quality of those applicants, and all offers are competitive.",
+    "expected_source": "admissions-stats-tool",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/eligibility/admissions-stats-tool"
+  },
+  {
+    "question": "Where can I find support and resources to help me prepare for my end-of-session exams?",
+    "reference": "You can access academic support via the support page, use the UTS Library and Reading Room, and find study skills and stress management tips through virtual library services. Also, check your UTS email, the Exams FAQ, and Online invigilated exams pages for updates.",
+    "expected_source": "support",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/attendance-and-study-load/exams/support"
+  },
+  {
+    "question": "How do I defer my offer if I have already accepted it but not enrolled in any subjects?",
+    "reference": "If you have accepted an offer but not enrolled in subjects, you need to submit an ASK UTS Online Enquiry to request a deferral. You do not need to submit a course withdrawal request.",
+    "expected_source": "deferring-offers",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/deferring-offers"
+  },
+  {
+    "question": "How does UTS prepare students to work with new technologies like AI in film and media?",
+    "reference": "UTS helps students learn how technologies like AI can support creative work by working with academics and industry professionals, encouraging experimentation, and partnering with industry leaders such as ARRI, AVID, and the Australian Directors\u2019 Guild to support hands-on learning.",
+    "expected_source": "the-future-of-film-in-australia",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/undergraduate/the-future-of-film-in-australia"
+  },
+  {
+    "question": "What kind of practical experiences can I expect in a communications degree at UTS?",
+    "reference": "In a communications degree at UTS, you can do internships such as working in a member of parliament's office, writing social media posts, media stories, briefings, and research proposals, providing hands-on and productive experiences.",
+    "expected_source": "parent-student-information-evenings-faculty-arts-social-sciences",
+    "url": "https://www.uts.edu.au/for-students/high-school-students/parent-information-arts-social-sciences/parent-student-information-evenings-faculty-arts-social-sciences"
+  },
+  {
+    "question": "What topics are covered in the Environmental Sciences courses at UTS?",
+    "reference": "The Environmental Sciences courses at UTS cover general science subjects and specialist study in areas such as aquatic and terrestrial ecosystems, plant physiology, biodiversity conservation, wildlife management, and environmental protection.",
+    "expected_source": "sustainability-and-environment",
+    "url": "https://www.uts.edu.au/for-students/international-studies-and-social-sciences/sustainability-and-environment"
+  },
+  {
+    "question": "What are the general eligibility requirements to apply for a postgraduate course at UTS?",
+    "reference": "To be eligible for a postgraduate course at UTS, you need to possess relevant qualifications or experience, demonstrate English language proficiency, and meet any course-specific requirements. Generally, an Australian bachelor degree or overseas equivalent is required, though some courses may consider other qualifications or work experience.",
+    "expected_source": "domestic-postgraduate",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/eligibility/domestic-postgraduate"
+  },
+  {
+    "question": "What is the value of the UTS Southeast Asia International Scholarship?",
+    "reference": "The UTS Southeast Asia International Scholarship covers 20% of tuition fees.",
+    "expected_source": "uts-southeast-asia-international-scholarship",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-southeast-asia-international-scholarship"
+  },
+  {
+    "question": "How do I accept my UTS scholarship offer as a domestic student?",
+    "reference": "Login to My Student Admin using your student ID email and password, click on the 'Scholarships' tab, select your scholarship, click 'Accept', update your bank account details, then save your acceptance.",
+    "expected_source": "information-for-scholarship-recipients",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/information-for-scholarship-recipients"
+  },
+  {
+    "question": "What is the Australian Language and Culture Studies program like for non-English speakers?",
+    "reference": "The program is designed for non-English speakers to learn English, with small group classes that improve speaking skills in a friendly but serious atmosphere, making it a memorable and effective experience.",
+    "expected_source": "australian-language-and-culture-studies-program",
+    "url": "https://www.uts.edu.au/for-students/international/study-abroad-exchange-uts/australian-language-and-culture-studies-program"
+  },
+  {
+    "question": "When should I use 'the' before a place name?",
+    "reference": "'The' is used before place names when there is an adjective, the word 'of' in the name, or a plural noun in the name, such as 'The United States of America' or 'The People\u2019s Republic of China'.",
+    "expected_source": "articles",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/grammar/articles"
+  },
+  {
+    "question": "What scholarship did Leo receive when he started his Bachelor of Nursing at UTS?",
+    "reference": "Leo received the UTS Scholarship for European Undergraduate Students when he started his Bachelor of Nursing.",
+    "expected_source": "from-russia-to-thailand-to-australia",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/health/from-russia-to-thailand-to-australia"
+  },
+  {
+    "question": "What should I do if I experience personal or academic problems while studying at UTS?",
+    "reference": "If you experience personal or academic problems, seek help early from services such as Counselling, Health, Accessibility Service, Financial Assistance, Careers, and HELPS.",
+    "expected_source": "university-mature-age-student",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/counselling-service-and-self-help/self-help-resources/university-mature-age-student"
+  },
+  {
+    "question": "Can my previous TAFE studies count towards recognition of prior learning for a Design course at UTS?",
+    "reference": "Yes, the Faculty of Design, Architecture and Building has a list of approved exemptions for several TAFE courses that can count towards recognition of prior learning.",
+    "expected_source": "design-architecture-and-building",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/recognition-of-prior-learning/design-architecture-and-building"
+  },
+  {
+    "question": "What majors can I choose in the Bachelor of Computing Science (Honours) at UTS?",
+    "reference": "The Bachelor of Computing Science (Honours) offers majors in AI and Data Analytics, Business Information Systems Management, Cybersecurity and Privacy, Enterprise Systems Development, Interaction Design, Mathematical Analysis, Networking and Cybersecurity, and Quantum Information Science.",
+    "expected_source": "c09119-bachelor-computing-science-honours",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-engineering-and-information-technology/undergraduate/information-technology-course-study-plans/c09119-bachelor-computing-science-honours"
+  },
+  {
+    "question": "Are there any upcoming online events at UTS that I can attend for free?",
+    "reference": "Yes, UTS offers several upcoming online events with free admission, including the UTS campus tour, UTS Info Day 2025, and a Palliative Care Information Session on 13 May 2026.",
+    "expected_source": "health",
+    "url": "https://www.uts.edu.au/for-students/health"
+  },
+  {
+    "question": "What career did Gribesh Dhakal pursue after graduating with a Master of Artificial Intelligence from UTS?",
+    "reference": "Gribesh Dhakal works as a Software Engineer at Luxury Escapes in Sydney after graduating from UTS with a Master of Artificial Intelligence.",
+    "expected_source": "deepening-expertise-with-a-master-in-artificial-intelligence",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/information-technology/deepening-expertise-with-a-master-in-artificial-intelligence"
+  },
+  {
+    "question": "What happens if I don\u2019t show up to my graduation ceremony after registering?",
+    "reference": "If you don\u2019t attend the ceremony after registering and don\u2019t notify UTS beforehand, you will be considered a no-show and your registration fee of $180 will be kept as a no-show fee.",
+    "expected_source": "graduation-ceremonies-faqs",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/graduation/graduation-ceremonies-faqs"
+  },
+  {
+    "question": "What are the eligibility requirements for the UTS Law international exchange program?",
+    "reference": "To be eligible for the program, students should have a credit average or better and have completed 68 credit points of core subjects including 70517 Equity and Trusts.",
+    "expected_source": "international-opportunities",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law/international-opportunities"
+  },
+  {
+    "question": "Who can I contact if I have trouble logging into Mentimeter with my UTS credentials?",
+    "reference": "If you have trouble logging into Mentimeter using your UTS credentials via Single sign on (SSO) or Okta Multi-factor authentication, you can find information about Multi-factor authentication online or contact the UTS IT Support Centre.",
+    "expected_source": "mentimeter",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/using-uts-systems/software-available-students/mentimeter"
+  },
+  {
+    "question": "Who is eligible to apply for the UTS College to UTS Transfer Scholarship?",
+    "reference": "To be eligible, applicants must be international students, commence full-time on-campus studies at UTS, and meet UTS admission criteria for their selected course.",
+    "expected_source": "uts-college-to-uts-transfer-scholarship",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/scholarships/scholarships-search/uts-college-to-uts-transfer-scholarship"
+  },
+  {
+    "question": "What career opportunities can I pursue with a health degree from UTS?",
+    "reference": "A health degree from UTS can lead to careers such as nurse, midwife, public health communicator, physiotherapist, and sports manager, with practical experience gained in state-of-the-art facilities.",
+    "expected_source": "health",
+    "url": "https://www.uts.edu.au/for-students/indigenous-students/health"
+  },
+  {
+    "question": "Can I store my assignment files on the 'Student Work' or 'public' folders on the computers in the Computing Unit?",
+    "reference": "You should not store the only copy of your assignment in the 'Student Work' or 'public' folders because both are volatile, accessible to everyone, and files can be deleted.",
+    "expected_source": "resources-current-students",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/design-architecture-and-building/resources-current-students"
+  },
+  {
+    "question": "Can I make another appointment with a counsellor if I'm still feeling sad?",
+    "reference": "Yes, you can make another appointment with a counsellor for support around your sadness and to keep them updated on how it is impacting your studies.",
+    "expected_source": "counselling-service-and-self-help",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/counselling-service-and-self-help"
+  },
+  {
+    "question": "What are the program fees for the Guangzhou Winter School if I choose a single hotel room?",
+    "reference": "The total program fee for the Guangzhou Winter School with a single hotel room is $4,050, which covers academic lectures, accommodation at a 4-star hotel, transportation, airport shuttles, meals, and events.",
+    "expected_source": "guangzhou-winter-school-introduction-chinese-commercial-law",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law/international-opportunities/guangzhou-winter-school-introduction-chinese-commercial-law"
+  },
+  {
+    "question": "How can establishing a study routine help me focus better?",
+    "reference": "By setting up a consistent study space and time, your brain will automatically switch to study mode, making it easier to get your study done. Rituals like turning off your phone or listening to particular music can also help signal your brain to concentrate.",
+    "expected_source": "balancing-study-work-and-life",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/learning-hub/design-your-uts/balancing-study-work-and-life"
+  },
+  {
+    "question": "Do I need to apply separately for scholarships and grants marked with an asterisk for my exchange program?",
+    "reference": "No separate application is required for scholarships and grants with an asterisk; you will be automatically considered for them.",
+    "expected_source": "financial-assistance",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/opportunities/global-opportunities/financial-assistance"
+  },
+  {
+    "question": "How can I explain what I plan to change after reflecting on an experience in my assignment?",
+    "reference": "You should describe what you plan to change as a result of your experience and reflection, such as using specific tools or strategies like the SMART goal approach in future projects to achieve clear targets.",
+    "expected_source": "reflective-tasks",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/types-assignments/reflective-tasks"
+  },
+  {
+    "question": "How should I structure the conclusion of my assignment?",
+    "reference": "The conclusion should be 5-10% of your words, summarise the key points you want your reader to remember, and link back to your basic argument in the introduction.",
+    "expected_source": "how-analyse-your-assignment-task",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/academic-skills/how-analyse-your-assignment-task"
+  },
+  {
+    "question": "How does UTS help students become job-ready after graduation?",
+    "reference": "UTS helps students become job-ready through hands-on learning opportunities such as internships, industry projects, and networking events.",
+    "expected_source": "kick-start-your-dream-career-today",
+    "url": "https://www.uts.edu.au/for-students/new-students/international-students/kick-start-your-dream-career-today"
+  },
+  {
+    "question": "What advice do current international students at UTS have for new students about living in Sydney?",
+    "reference": "Current international students advise exploring new places in Sydney, being brave, talking to strangers as they are helpful, and living with people from different countries.",
+    "expected_source": "international-students",
+    "url": "https://www.uts.edu.au/for-students/new-students/international-students"
+  },
+  {
+    "question": "What kind of learning experience can I expect in the Human Resources program at UTS Business School?",
+    "reference": "In Human Resources, you\u2019ll work closely with industry, build your professional network, and learn hands-on through practical assessment tasks.",
+    "expected_source": "mba-programs",
+    "url": "https://www.uts.edu.au/for-students/business/mba-programs"
+  },
+  {
+    "question": "What skills does Geoffrey McNamara say are essential for the future?",
+    "reference": "Geoffrey McNamara says that adaptability and problem-solving are the only two skills guaranteed to be needed for the next century or more.",
+    "expected_source": "geoffrey-mcnamara-am-champion-for-science",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/education/geoffrey-mcnamara-am-champion-for-science"
+  },
+  {
+    "question": "What advice does the UTS website give for managing stress?",
+    "reference": "The advice is to take a breath and calm down, reassuring that everything will work out.",
+    "expected_source": "building-bridge-to-gender-equality-in-engineering",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/engineering/building-bridge-to-gender-equality-in-engineering"
+  },
+  {
+    "question": "How can I contact UTS as an international student to ask about courses?",
+    "reference": "International students can get in touch by completing the international student enquiry form on the UTS website, which will be used to respond to their enquiry and may also provide general university information.",
+    "expected_source": "international-studies-and-social-sciences",
+    "url": "https://www.uts.edu.au/for-students/international-studies-and-social-sciences"
+  },
+  {
+    "question": "What makes UTS special according to Dr Julian Edwards?",
+    "reference": "Dr Julian Edwards believes UTS is special because of its pragmatic focus and strong connection to business, which helps address real-world problems.",
+    "expected_source": "dr-julian-edwards-solutions-chief",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/business/dr-julian-edwards-solutions-chief"
+  },
+  {
+    "question": "Are there any free online events related to health courses at UTS?",
+    "reference": "Yes, UTS offers free online events such as campus tours, Info Day 2025, and webinars related to health and other courses.",
+    "expected_source": "allied-health",
+    "url": "https://www.uts.edu.au/for-students/health-gsh/allied-health"
+  },
+  {
+    "question": "Where can I find more information about screen directing courses at UTS?",
+    "reference": "You can check out the UTS website and search for Media Arts or Screen Arts to learn more about screen directing courses and careers in storytelling.",
+    "expected_source": "what-its-really-like-to-be-a-screen-director",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/undergraduate/what-its-really-like-to-be-a-screen-director"
+  },
+  {
+    "question": "What is U:PASS and how can it help me with difficult first year subjects?",
+    "reference": "U:PASS is a student learning program offering group study sessions for difficult or high-failure first year subjects, led by high achieving students who recently completed the subject, using interactive materials to help you learn in a group setting.",
+    "expected_source": "tutoring-and-upass",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/academic-support/tutoring-and-upass"
+  },
+  {
+    "question": "What kind of career opportunities can I expect with a science degree from UTS?",
+    "reference": "A science degree from UTS offers in-demand skills that make you attractive to employers across diverse sectors such as business, government, health, and education, providing multifaceted career prospects.",
+    "expected_source": "science",
+    "url": "https://www.uts.edu.au/for-students/indigenous-students/science"
+  },
+  {
+    "question": "What are reporting verbs used for in academic writing?",
+    "reference": "Reporting verbs are used to integrate citations, present information clearly, express your stance on sourced information, and strengthen your arguments in assignments.",
+    "expected_source": "reporting-verbs",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/grammar/reporting-verbs"
+  },
+  {
+    "question": "What study options are available in Information Technology at UTS?",
+    "reference": "UTS offers study options in Electrical and Electronic Engineering, Computer Science, Systems Design and Analysis, and Cybersecurity and Networking within Information Technology.",
+    "expected_source": "information-technology",
+    "url": "https://www.uts.edu.au/for-students/information-technology/information-technology"
+  },
+  {
+    "question": "What is the difference between critical writing and descriptive writing?",
+    "reference": "Critical writing analyses information from multiple perspectives, makes logical connections between ideas, and offers an evaluated personal perspective, while descriptive writing simply states what happened and outlines theories or ideas without evaluation.",
+    "expected_source": "how-write-critically",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/academic-skills/how-write-critically"
+  },
+  {
+    "question": "What does creative problem-solving involve in climate-related work?",
+    "reference": "Creative problem-solving involves thinking beyond conventional solutions, proposing uncertain or untested ideas, combining insights from different disciplines, and learning through experimentation to address urgent, complex climate problems.",
+    "expected_source": "climate-solutions-need-diverse-skills.-heres-what-matters-most",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/postgraduate/climate-solutions-need-diverse-skills.-heres-what-matters-most"
+  },
+  {
+    "question": "What happens to my tuition fees if my leave of absence is approved?",
+    "reference": "If your leave of absence is approved and your application was made on or before the census date, your tuition fees liability will be adjusted and any credit balance of relevant tuition fees previously paid will be refunded to you.",
+    "expected_source": "leave-absence-your-course",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/your-enrolment/enrolment-changes/leave-absence-your-course"
+  },
+  {
+    "question": "Does the Yura Mudang Medium Studio virtual tour show the exact layout and design of the room I might get?",
+    "reference": "No, the virtual tours are indicative only and may not represent the exact layout, size, design, or inclusions of your assigned room or common areas.",
+    "expected_source": "yura-mudang-medium-studio",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/uts-housing-service/our-residence-yura-mudang/residence-virtual-tours/yura-mudang-medium-studio"
+  },
+  {
+    "question": "When should I request a student conduct report for Practical Experience to meet LPAB requirements?",
+    "reference": "You should request a student conduct report only after your degree is completed and all results are finalised, as reports prepared beforehand won't meet LPAB requirements. Also, conduct reports are valid for 6 months, so request it when preparing your application documentation.",
+    "expected_source": "practical-experience",
+    "url": "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law/practical-legal-training-plt/practical-experience"
+  },
+  {
+    "question": "What is the Simplified Student Visa Framework (SSVF) and how does it affect my visa application?",
+    "reference": "The SSVF is a framework by the Department of Home Affairs that applies to all international students, allowing them to obtain their student visa (subclass 500) quickly and usually with less documentation. UTS is an approved SSVF provider and recruits students under these arrangements.",
+    "expected_source": "student-visas",
+    "url": "https://www.uts.edu.au/for-students/new-students/international-students/student-visas"
+  },
+  {
+    "question": "Am I eligible to apply for the Commonwealth Prac Payment if I am a nursing student?",
+    "reference": "If you\u2019re a domestic student studying nursing, you may be eligible to apply for a Commonwealth government payment to support your practical placements.",
+    "expected_source": "commonwealth-prac-payments",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/financial-help/commonwealth-prac-payments"
+  },
+  {
+    "question": "How can I apply for a refund if I\u2019m no longer a UTS student but have a Fail or Withdrawn grade?",
+    "reference": "If you\u2019re no longer a UTS student, register for My Student Portal using your personal email, then log in to the UTS Student Portal, select Ask UTS, and submit a Remissions/Refund due to Special Circumstances Form including all subjects for one study session per application.",
+    "expected_source": "refunds-and-remissions",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/fees-costs/payment-information/refunds-and-remissions"
+  },
+  {
+    "question": "What is the difference between the Study Abroad and Exchange programs at UTS?",
+    "reference": "Study Abroad is open to students from any recognised university or college and requires paying fees directly to UTS, while Exchange is for students enrolled at a UTS exchange partner institution.",
+    "expected_source": "how-apply",
+    "url": "https://www.uts.edu.au/for-students/international/study-abroad-exchange-uts/how-apply"
+  },
+  {
+    "question": "What kind of practical experiences can I expect in the Bachelor of Construction Project Management at UTS?",
+    "reference": "The Bachelor of Construction Project Management at UTS is very hands on and practical, including site visits for some assignments and opportunities to travel internationally for projects, such as building a house in Cambodia and working on farming products in Nepal.",
+    "expected_source": "construction",
+    "url": "https://www.uts.edu.au/for-students/design-architecture-and-building/construction"
+  },
+  {
+    "question": "How has Farhan used his UTS degree to support the Porikolpona Foundation?",
+    "reference": "Farhan has used his degree to create data-driven presentations for donors, which has enhanced the foundation's fundraising efforts.",
+    "expected_source": "where-business-meets-humanity",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/business/where-business-meets-humanity"
+  },
+  {
+    "question": "What documents do I need to provide for Recognition of Prior Learning (RPL) for health studies at UTS?",
+    "reference": "You need to provide copies showing the grading system or a verifiable myEquals link of your transcript, the Subject Outline matching the year and session of study including learning objectives, topics, study hours, assessments, and textbooks, certified translations if not in English, a comparison table, and certified evidence of successful clinical placement hours. Applications missing these details will not be accepted.",
+    "expected_source": "health",
+    "url": "https://www.uts.edu.au/for-students/admissions-entry/recognition-of-prior-learning/health"
+  },
+  {
+    "question": "Why is now a good time to study Urban Planning at UTS?",
+    "reference": "There is a growing demand for qualified urban planning professionals due to challenges like population growth and climate change, with the industry expected to grow by 2,500 jobs by 2026, creating many job opportunities.",
+    "expected_source": "5-reasons-to-study-urban-planning",
+    "url": "https://www.uts.edu.au/for-students/experience-uts/design-architecture-and-building/5-reasons-to-study-urban-planning"
   }
 ]

@@ -1,0 +1,136 @@
+{
+  "out_of_scope": [
+    {
+      "question": "What is the meaning of life?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/careers/career-and-life-design",
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/careers/career-and-life-design",
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/careers",
+        "https://www.uts.edu.au/for-students/experience-uts/undergraduate/6-careers-crucial-for-addressing-climate-change",
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/careers",
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/careers"
+      ]
+    },
+    {
+      "question": "Who won the FIFA World Cup in 2022?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/experience-uts/graduate-research/growing-womens-football-through-research",
+        "https://www.uts.edu.au/for-students/experience-uts/graduate-research/growing-womens-football-through-research",
+        "https://www.uts.edu.au/for-students/experience-uts/graduate-research/5-reasons-to-do-a-PhD",
+        "https://www.uts.edu.au/for-students/experience-uts/graduate-research/elevating-the-game-for-women-in-sport",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law/competitions-and-prizes/mooting-competitions",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-law/competitions-and-prizes/mooting-competitions"
+      ]
+    },
+    {
+      "question": "How do I cook pasta?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/new-students/international-students",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-international-studies/country-study-information/are-you-thinking-about-bachelor-international-studies",
+        "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/grammar/punctuation",
+        "https://www.uts.edu.au/for-students/international-studies-and-social-sciences/languages",
+        "https://www.uts.edu.au/for-students/experience-uts/design-architecture-and-building/katherine-turk-is-ready-to-take-on-the-world",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-health/faculty-contacts/course-directors"
+      ]
+    },
+    {
+      "question": "What is the stock price of Apple?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/experience-uts/career-planning/apple-foundation-program",
+        "https://www.uts.edu.au/for-students/experience-uts/career-planning/apple-foundation-program",
+        "https://www.uts.edu.au/for-students/experience-uts/business/unlocking-real-world-finance-experience-at-uts",
+        "https://www.uts.edu.au/for-students/experience-uts/career-planning/apple-foundation-program",
+        "https://www.uts.edu.au/for-students/experience-uts/career-planning/uts-innovation-hub-for-apple-technologies",
+        "https://www.uts.edu.au/for-students/experience-uts/information-technology/apple-foundation-program-at-uts-shuvams-innovation-journey"
+      ]
+    },
+    {
+      "question": "Tell me a joke.",
+      "answer": "Here\u2019s a light joke for you: Why don\u2019t scientists trust atoms? Because they make up everything! \n\nIf you want to volunteer and have some fun while helping others practice English, you just need to be there and gently prompt students along with occasional questions \u2014 and maybe share a few laughs too! [1]",
+      "verdict": "HALLUCINATED",
+      "sources": [
+        "https://www.uts.edu.au/for-students/current-students/support/helps/helps-uconnect",
+        "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/genai-learning-resources/revising-exams",
+        "https://www.uts.edu.au/for-students/experience-uts/science/acacia-kutay",
+        "https://www.uts.edu.au/for-students/experience-uts/postgraduate/heres-why-entrepreneurs-critical-for-addressing-climate-change",
+        "https://www.uts.edu.au/for-students/experience-uts/business/unlocking-real-world-finance-experience-at-uts",
+        "https://www.uts.edu.au/for-students/experience-uts/science/nicholas-james"
+      ]
+    }
+  ],
+  "in_scope_miss": [
+    {
+      "question": "Who is the current UTS Vice Chancellor?",
+      "answer": "The context provided does not include the name of the current UTS Vice-Chancellor. \n\nI couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/new-students/essential-information",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/vice-chancellors-outstanding-achievement-scholarship",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-communication/faculty-contacts-school-communication",
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/represent-your-fellow-students",
+        "https://www.uts.edu.au/for-students/experience-uts/business/george-savvides-am-legendary-leader",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/current-students-information-health/faculty-contacts/course-directors"
+      ]
+    },
+    {
+      "question": "What is the UTS annual budget?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/admissions-entry/fees-costs/payment-information/student-services-and-amenities-fee-ssaf/how-ssaf-works",
+        "https://www.uts.edu.au/for-students/admissions-entry/fees-costs/payment-information/annual-tuition-fee-increases",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/contact-us",
+        "https://www.uts.edu.au/for-students/current-students/support/uts-housing-service/our-residence-yura-mudang/fees",
+        "https://www.uts.edu.au/for-students/admissions-entry",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/contact-us"
+      ]
+    },
+    {
+      "question": "How many staff does UTS employ?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/current-students/support/contacts/other-contacts-uts",
+        "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply",
+        "https://www.uts.edu.au/for-students/admissions-entry",
+        "https://www.uts.edu.au/for-students/current-students/managing-your-course/design-architecture-and-building/resources-current-students",
+        "https://www.uts.edu.au/for-students/current-students/international-students",
+        "https://www.uts.edu.au/for-students/current-students/support/contacts/uts-service-centre-customer-service-charter"
+      ]
+    },
+    {
+      "question": "What research grants did UTS receive this year?",
+      "answer": "UTS received the following research grants this year for various programs and locations:\n\n- Singapore \u2013 9 grants of $8,500 each  \n- China \u2013 19 grants of $15,000 each  \n- Japan \u2013 15 grants of $15,000 each  \n- Korea \u2013 3 grants of $15,000 each  \n- Indonesia \u2013 grants of $15,000 available for the ACICIS program (awarded and paid by ACICIS)  \n\nUTS will also be applying for a limited number of grants for Japan, Korea, Hong Kong, and Singapore, with outcomes expected towards the end of 2025 and 2026 respectively [2].",
+      "verdict": "HALLUCINATED",
+      "sources": [
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/how-to-fund-your-phd-or-masters-by-research",
+        "https://www.uts.edu.au/for-students/current-students/support/opportunities/global-opportunities/financial-assistance",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/graduate",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/graduate",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/graduate"
+      ]
+    },
+    {
+      "question": "What is the UTS endowment fund size?",
+      "answer": "I couldn't find that in UTS policy \u2014 please check uts.edu.au directly.",
+      "verdict": "CORRECT_REFUSAL",
+      "sources": [
+        "https://www.uts.edu.au/for-students/admissions-entry/fees-costs/payment-information/student-services-and-amenities-fee-ssaf/how-ssaf-works",
+        "https://www.uts.edu.au/for-students/business/finance",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/contact-us",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/contact-us",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships",
+        "https://www.uts.edu.au/for-students/admissions-entry/scholarships/graduate"
+      ]
+    }
+  ]
+}
