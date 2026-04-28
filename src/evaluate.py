@@ -23,7 +23,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 from ragas import evaluate
-from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
+from ragas.metrics.collections import faithfulness, answer_relevancy, context_precision, context_recall
 from datasets import Dataset
 
 sys.path.insert(0, "src")
