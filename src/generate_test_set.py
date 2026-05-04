@@ -38,7 +38,10 @@ Rules:
 - The question must be answerable from the text
 - The reference answer must be factual and concise (1-3 sentences)
 - Do NOT include information not present in the text
-- The question should sound like a real student asking""")
+- The question should sound like a real student asking
+- Do NOT generate questions about specific named individuals (students, staff, alumni, or any real person)
+- Only generate questions about UTS policies, procedures, services, requirements, or general information
+- If the text is primarily about a specific person's story or experience, reply with exactly: {{"skip": true}}""")
 
 
 def load_config(path="config/config.yaml"):
@@ -62,16 +65,19 @@ def generate_test_set(n=20, output_path="data/test_set.json", seed=42):
     chunks = load_chunks()
 
     random.seed(seed)
-    sampled = random.sample(chunks, min(n, len(chunks)))
+    pool = random.sample(chunks, len(chunks))  # shuffle all, draw as needed
 
-    llm = ChatOpenAI(model=config["llm"]["model"], temperature=0)
+    llm = ChatOpenAI(model="gpt-5.4-mini", temperature=0)
     chain = GENERATE_PROMPT | llm | StrOutputParser()
 
     results = []
     failed = 0
+    pool_idx = 0
 
-    for i, chunk in enumerate(sampled):
-        print(f"[{i+1}/{len(sampled)}] {chunk['url']}")
+    while len(results) < n and pool_idx < len(pool):
+        chunk = pool[pool_idx]
+        pool_idx += 1
+        print(f"[{len(results)+1}/{n}] {chunk['url']}")
         try:
             raw = chain.invoke({
                 "url": chunk["url"],
@@ -79,6 +85,9 @@ def generate_test_set(n=20, output_path="data/test_set.json", seed=42):
                 "domain": extract_domain(chunk["url"]),
             })
             item = json.loads(raw)
+            if item.get("skip"):
+                print(f"  Skipped (personal story)")
+                continue
             item["url"] = chunk["url"]
             results.append(item)
             print(f"  Q: {item['question']}")
@@ -99,4 +108,4 @@ if __name__ == "__main__":
     parser.add_argument("--output", default="data/test_set.json", help="Output path")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
     args = parser.parse_args()
-    generate_test_set(n=args.n, output=args.output, seed=args.seed)
+    generate_test_set(n=args.n, output_path=args.output, seed=args.seed)

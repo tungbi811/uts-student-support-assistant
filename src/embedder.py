@@ -59,8 +59,17 @@ def save_vectorstore(vectorstore, output_path="data/faiss_index"):
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--chunks", default=None, help="Input chunks JSON path (default: from config)")
+    parser.add_argument("--output", default=None, help="Output FAISS index path (default: from config)")
+    args = parser.parse_args()
+
     config = load_config()
-    chunks = load_chunks()
+    chunks_path = args.chunks or "data/chunks.json"
+    output_path = args.output or config["vectorstore"]["index_path"]
+
+    chunks = load_chunks(chunks_path)
     vectorstore = build_vectorstore(chunks, config)
-    save_vectorstore(vectorstore, config["vectorstore"]["index_path"])
+    save_vectorstore(vectorstore, output_path)
     print("\nDone! Vectorstore is ready.")

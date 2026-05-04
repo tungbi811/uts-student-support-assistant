@@ -1,0 +1,1011 @@
+{
+  "summary": {
+    "n": 100,
+    "correctness": 0.5765,
+    "faithfulness": 0.01,
+    "answer_relevancy": 0.7759999999999999,
+    "source_hit_rate": 0.0
+  },
+  "results": [
+    {
+      "question": "If I have a disability or special needs, what should I do when applying for UTS Housing?",
+      "answer": "If you have a disability or special needs and are applying for UTS Housing, you should inform the UTS Housing team as early as possible during your application process. This allows them to provide appropriate support and consider your specific requirements when allocating accommodation. You may be asked to provide relevant documentation or medical information to help assess your needs. Additionally, UTS Housing offers accessible rooms and facilities designed to accommodate students with disabilities. It\u2019s a good idea to contact the UTS Housing office directly or visit their website for detailed information on available support and how to apply for accessible accommodation.",
+      "reference": "It is best to let UTS Housing know on your application form. They will then discuss your needs with you and allocate you to an appropriate room.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What kinds of experiences does UTS say students can get in IT?",
+      "answer": "At the University of Technology Sydney (UTS), students studying IT can gain a wide range of practical and industry-relevant experiences. UTS emphasizes hands-on learning through real-world projects, industry placements, internships, and collaboration with industry partners. Students have opportunities to work on live projects, participate in hackathons, and engage with cutting-edge technologies. The university also offers access to innovation labs and research centers, enabling students to develop skills in areas such as software development, cybersecurity, data analytics, and artificial intelligence. These experiences are designed to prepare students for the dynamic IT industry by combining theoretical knowledge with practical application.",
+      "reference": "UTS says IT students can experience cutting-edge labs, design challenges, industry projects, and career pathways. The page also highlights student stories, including paid industry work while studying.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "Where can I find information about campus maps and staying safe on campus?",
+      "answer": "You can find information about campus maps and staying safe on campus on the University of Technology Sydney (UTS) official website. Specifically, visit the UTS Campus Maps page for detailed maps of all campuses, including building locations, facilities, and accessibility information. For safety information, check the UTS Security and Safety page, which provides guidance on personal safety, emergency procedures, and contact details for campus security services. Both resources are designed to help you navigate the campus easily and stay safe while at UTS.",
+      "reference": "The campus page has quick links to Campus maps and Staying safe. Campus maps help you find buildings, transport and amenities, and Staying safe explains how to stay safe on campus and what to do in an emergency.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "Can I complete the Juris Doctor fully online at UTS?",
+      "answer": "No, you cannot complete the Juris Doctor fully online at UTS. The Juris Doctor program at the University of Technology Sydney is primarily offered on campus, with some components potentially available online or in a blended format. However, full online completion of the entire Juris Doctor degree is not currently available. It is best to check the latest UTS Law Faculty information or contact the university directly for the most up-to-date details on delivery modes.",
+      "reference": "No. The Juris Doctor (JD) degree is not delivered fully online. Some subjects offer online study options, but some require on-campus attendance.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "Are the Mechanical Engineering and Mechanical and Mechatronic Engineering degrees accredited, and are they recognised internationally?",
+      "answer": "Yes, the Mechanical Engineering and Mechanical and Mechatronic Engineering degrees at the University of Technology Sydney (UTS) are accredited. These programs are accredited by Engineers Australia, which is the designated authority for engineering accreditation in Australia. This accreditation ensures that the degrees meet the high standards required for professional engineering practice.\n\nFurthermore, because Engineers Australia is a signatory to the Washington Accord, the degrees are internationally recognised in other signatory countries. This means that graduates from these programs are eligible for recognition of their qualifications in many countries around the world, facilitating international mobility and career opportunities in engineering.",
+      "reference": "Yes. The Bachelor of Engineering (Honours) in Mechanical Engineering, Mechanical and Mechatronic Engineering, and Mechatronic Engineering are fully accredited by Engineers Australia. They are also recognised internationally by signatories to the Washington Accord.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "How does UTS use my personal information, and when can it share it with another organisation?",
+      "answer": "At the University of Technology Sydney (UTS), your personal information is collected, used, and managed in accordance with privacy laws and the university\u2019s Privacy Management Plan. UTS uses your personal information primarily to provide educational services, manage your enrolment, support your student experience, and comply with legal and regulatory requirements.\n\nSpecifically, UTS may use your personal information to:\n\n- Process your application and enrolment\n- Manage your academic records and progress\n- Communicate with you about your studies, events, and services\n- Provide access to university facilities and resources\n- Conduct research and improve university services (in a de-identified or aggregated form)\n- Comply with legal obligations, such as reporting to government agencies\n\nUTS may share your personal information with other organisations in certain circumstances, including but not limited to:\n\n- Government departments and agencies (e.g., for funding, reporting, or compliance purposes)\n- Other educational institutions (e.g., if you transfer or participate in exchange programs)\n- Service providers engaged by UTS to perform functions on its behalf (e.g., IT services, student support services)\n- Legal or regulatory bodies when required or authorised by law\n- Prospective employers or professional bodies, but only with your consent or as part of official processes\n\nUTS takes steps to ensure that any third parties with whom your information is shared handle it securely and in accordance with privacy requirements.\n\nFor more detailed information, you can refer to the UTS Privacy Management Plan available on the university\u2019s website or contact the UTS Privacy Officer.",
+      "reference": "UTS collects and uses personal information only when it is necessary and only for the purpose it was collected for. It will share your personal information with another organisation only if you have consented or if there is a legal obligation to do so.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "If I'm an international student, how do I get in touch about this area?",
+      "answer": "If you are an international student and want to get in touch with the University of Technology Sydney (UTS) regarding admissions, courses, or any other inquiries, you can contact the UTS International Office. Here are some ways to reach out:\n\n1. **Email:** You can email the UTS International Admissions team at international.admissions@uts.edu.au for questions about applications, courses, and entry requirements.\n\n2. **Phone:** Call the UTS International Office on +61 2 9514 1333 (note the time difference if you are overseas).\n\n3. **Online Enquiry Form:** Visit the UTS International website and fill out their enquiry form for specific questions: [UTS International Enquiry](https://www.uts.edu.au/future-students/international)\n\n4. **Live Chat:** UTS often offers a live chat service on their international student webpage during business hours.\n\n5. **Social Media:** You can also reach out via UTS International\u2019s official social media channels for updates and assistance.\n\nMake sure to check the UTS International website for the most current contact details and office hours.",
+      "reference": "International students should complete the international student enquiry form. The information provided will be used to respond to the enquiry and may also be used to provide general information about the university.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Why should a legal practitioner build dementia-specific skills?",
+      "answer": "A legal practitioner should build dementia-specific skills because dementia presents unique legal challenges that require specialized knowledge and sensitivity. Individuals with dementia may face issues related to capacity, consent, guardianship, estate planning, and elder abuse. By developing dementia-specific skills, legal practitioners can:\n\n1. **Effectively assess and address capacity issues:** Understanding how dementia affects decision-making abilities helps lawyers provide appropriate advice and ensure that clients\u2019 rights and wishes are respected.\n\n2. **Ensure ethical and informed consent:** Practitioners can better navigate situations where clients may have fluctuating or diminished capacity, ensuring that consent is obtained ethically and legally.\n\n3. **Advocate for clients\u2019 best interests:** Lawyers can help protect vulnerable clients from exploitation, abuse, or neglect by recognizing signs of vulnerability and taking appropriate legal action.\n\n4. **Provide tailored legal advice:** Dementia-specific knowledge enables practitioners to offer relevant advice on powers of attorney, advance care directives, guardianship, and estate planning that reflect the client\u2019s current and future needs.\n\n5. **Enhance communication and support:** Building skills in communicating with clients who have cognitive impairments ensures that legal processes are accessible and respectful.\n\nOverall, dementia-specific skills enable legal practitioners to deliver competent, compassionate, and effective legal services to a growing population affected by dementia, ensuring their legal rights and dignity are upheld.",
+      "reference": "Being a dementia-capable legal practitioner is about delivering legal services that are ethical, effective and fit for purpose in a changing society. The courses provide resources, frameworks and skills you can immediately implement in practice.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "If I don't meet the ATAR for Journalism, can I still study it in the Bachelor of Communication?",
+      "answer": "Yes, if you do not meet the ATAR requirement for the Bachelor of Journalism at UTS, you can still study journalism-related subjects through the Bachelor of Communication. The Bachelor of Communication offers a broader range of majors and specialisations, including journalism, media, public relations, and more. This pathway allows you to gain skills and knowledge in journalism without needing to meet the specific ATAR for the Bachelor of Journalism. Additionally, you may have the option to transfer into the Bachelor of Journalism later, depending on your academic performance and available places. It\u2019s a good idea to check the latest UTS admission requirements and speak with a UTS admissions advisor for personalised advice.",
+      "reference": "Yes. All Bachelor of Communication students choose a second major once they commence the course, so you may be able to study a major with a typically higher ATAR, such as Journalism or Public Communication, even if you don't meet that major's ATAR requirements.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Who should I contact if I need academic advice about my course of study, major, or progression that the Student Centre can't provide?",
+      "answer": "If you need academic advice about your course of study, major, or progression that the Student Centre can't provide, you should contact your Faculty Student Experience Team or your Academic Advisor. They are equipped to offer detailed guidance specific to your program and can assist with course planning, major selection, and progression requirements. You can usually find their contact details on your faculty\u2019s website or through your student portal.",
+      "reference": "Academic advice that the Student Centre is unable to provide is available from program directors, also known as Academic Advisers.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "How do I apply for most undergraduate courses at UTS?",
+      "answer": "To apply for most undergraduate courses at UTS (University of Technology Sydney), you generally need to submit your application through the Universities Admissions Centre (UAC) if you are a domestic student. Here\u2019s a step-by-step overview:\n\n1. **Check Admission Requirements:** Review the specific entry requirements for your chosen course on the UTS website, including prerequisites, assumed knowledge, and any additional requirements such as portfolios or auditions.\n\n2. **Apply via UAC:** For most undergraduate courses, domestic applicants apply through the UAC online application system. You will need to create an account, select UTS as your preferred university, and choose your desired courses.\n\n3. **Provide Supporting Documents:** Depending on the course, you may need to submit additional documents such as your Year 12 results, ATAR, or evidence of prior study.\n\n4. **Special Entry Schemes:** If applicable, consider applying through special entry schemes like the UTS Access and Equity Scheme or other alternative entry pathways.\n\n5. **International Students:** If you are an international student, you apply directly through the UTS International Admissions portal rather than UAC.\n\n6. **Receive Offers:** After applications close, UAC processes applications and sends offers based on merit and availability.\n\nFor the most accurate and detailed information, always refer to the official UTS admissions webpage or contact UTS Admissions directly.",
+      "reference": "For most students, application to most undergraduate courses is through the Universities Admissions Centre (UAC). Some courses and admissions pathways also allow direct applications.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What support is available if I'm struggling with wellbeing, money, or housing as a UTS student?",
+      "answer": "If you're a UTS student struggling with wellbeing, money, or housing, the university offers a range of support services to help you:\n\n1. **Wellbeing Support**  \n   - **Counselling and Psychological Services:** UTS provides free, confidential counselling to help with mental health, stress, anxiety, and other personal issues.  \n   - **Health Services:** Access to medical services and health advice on campus.  \n   - **Workshops and Programs:** Various wellbeing workshops, mindfulness sessions, and peer support groups are available to support your mental health.\n\n2. **Financial Support**  \n   - **Financial Counselling:** UTS offers financial advice and budgeting support to help manage your finances.  \n   - **Emergency Financial Assistance:** There are grants and emergency funds available for students facing unexpected financial hardship.  \n   - **Scholarships and Bursaries:** UTS provides scholarships and bursaries that you may be eligible for to ease financial burdens.\n\n3. **Housing Support**  \n   - **Accommodation Services:** UTS can assist with finding suitable student accommodation, including on-campus housing options.  \n   - **Housing Advice:** Guidance on renting, tenancy rights, and dealing with housing issues.  \n   - **Emergency Housing Assistance:** Support for students facing housing crises or homelessness.\n\nTo access these services, you can visit the UTS Student Services and Amenities website or contact the UTS Student Hub for personalized assistance. It\u2019s encouraged to reach out early to get the support you need.",
+      "reference": "UTS offers free and confidential support for wellbeing, money and housing. This includes counselling, financial advice and short-term loans, food and basic supplies, and help with UTS residences, private or share accommodation, and tenancy matters.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Can you explain the basic steps for starting an example project if I know the theory but not how to apply it?",
+      "answer": "Certainly! If you understand the theory but are unsure how to start an example project at UTS, here are some basic steps to help you get going:\n\n1. **Define Your Project Goal:**  \n   Clearly outline what you want to achieve with your project. Having a specific goal or problem statement will guide your work.\n\n2. **Review Relevant Resources:**  \n   Look for course materials, lecture notes, or UTS library resources related to your topic. UTS often provides access to tutorials, sample projects, or case studies that can give you practical insights.\n\n3. **Plan Your Approach:**  \n   Break down the project into smaller tasks or stages. For example, if it\u2019s a coding project, start with setting up your development environment, then move on to writing basic code snippets.\n\n4. **Set Up Your Tools:**  \n   Identify and install any software, programming languages, or tools you need. UTS IT services or your course coordinator can often recommend the best tools.\n\n5. **Start Small:**  \n   Begin by creating a simple version or prototype of your project. This helps you apply theory in manageable steps and build confidence.\n\n6. **Seek Support:**  \n   Use UTS support services such as academic advisors, tutors, or online forums. Don\u2019t hesitate to ask questions or request feedback.\n\n7. **Iterate and Improve:**  \n   Test your project, identify issues, and refine your work. Applying theory often involves trial and error.\n\n8. **Document Your Work:**  \n   Keep notes on your process, challenges, and solutions. This will help you understand your learning journey and prepare for assessments.\n\nIf you provide more details about your specific project or field, I can offer more tailored advice!",
+      "reference": "First, identify the problem. Then decide what data you will use and where it comes from, and check whether it is labelled. After that, split the data into training and testing datasets, and then choose an algorithm to use.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.25,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What are the five ways of thinking described in the text?",
+      "answer": "The five ways of thinking described in the text are:\n\n1. **Critical Thinking** \u2013 Analyzing and evaluating information or arguments in a disciplined way.\n2. **Creative Thinking** \u2013 Generating new ideas and innovative solutions.\n3. **Reflective Thinking** \u2013 Considering experiences and learning from them to improve future actions.\n4. **Analytical Thinking** \u2013 Breaking down complex information into smaller parts to understand it better.\n5. **Systems Thinking** \u2013 Understanding how different parts of a system interact and influence one another.\n\nThese ways of thinking are often emphasized at UTS to help students develop a comprehensive approach to problem-solving and learning.",
+      "reference": "The five ways are: an inquisitive mind, radical collaboration, bias toward action, mindfulness of process, and re-framing.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "question": "Who should I contact if I have a general scholarship enquiry or can't find the information on the website?",
+      "answer": "If you have a general scholarship enquiry or cannot find the information you need on the University of Technology Sydney (UTS) website, you should contact the UTS Scholarships Office. They can provide assistance and answer your questions regarding scholarships.\n\nYou can reach them via:\n\n- **Email:** scholarships@uts.edu.au  \n- **Phone:** +61 2 9514 1234 (check the website for the most current contact number)  \n- **In person:** Visit the UTS Student Centre or the Scholarships Office on campus.\n\nFor the most accurate and up-to-date contact details, it\u2019s also a good idea to visit the official UTS Scholarships webpage.",
+      "reference": "Contact the UTS Scholarships team by email at scholarships@uts.edu.au.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What topics will I gain knowledge in through the practical, job-ready focus of these programs?",
+      "answer": "Through the practical, job-ready focus of UTS programs, you will gain knowledge in a range of industry-relevant topics tailored to your field of study. This typically includes:\n\n- **Applied skills and techniques** directly used in professional settings.\n- **Industry practices and standards** to prepare you for real-world work environments.\n- **Problem-solving and critical thinking** through hands-on projects and case studies.\n- **Use of current technologies and tools** relevant to your discipline.\n- **Communication and teamwork skills** essential for workplace collaboration.\n- **Project management and professional development** to enhance your career readiness.\n\nUTS emphasizes work-integrated learning, so you will often engage in internships, industry projects, and practical workshops that provide direct experience and insights into your chosen industry. This approach ensures you graduate with both theoretical knowledge and practical skills that employers value.",
+      "reference": "The programs include hands-on experiences and build knowledge in critical areas like accessibility, privacy and ethics.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.4
+    },
+    {
+      "question": "If I do the standalone Bachelor of Nursing, can I go on an overseas exchange?",
+      "answer": "Yes, if you are enrolled in the standalone Bachelor of Nursing at UTS, you may be eligible to participate in an overseas exchange program. However, participation in exchange programs can depend on several factors including your academic progress, the availability of suitable exchange partners, and the timing within your course structure. It\u2019s important to check with the UTS International Exchange Office and your faculty\u2019s student advisors to understand the specific requirements and opportunities for nursing students. Some clinical placement requirements in the Bachelor of Nursing may also affect your ability to go on exchange, so planning ahead is essential.",
+      "reference": "No. In the standalone Bachelor of Nursing or Bachelor of Midwifery degree, there\u2019s no opportunity for overseas exchange.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7
+    },
+    {
+      "question": "What is UTS Launch and what does it help students do?",
+      "answer": "UTS Launch is an initiative by the University of Technology Sydney designed to support students in developing their entrepreneurial skills and turning their ideas into viable businesses. It provides resources, mentorship, workshops, and networking opportunities to help students launch startups, develop innovative projects, and gain practical experience in entrepreneurship. Through UTS Launch, students can access guidance on business planning, funding, marketing, and other essential aspects of starting and growing a business.",
+      "reference": "UTS Launch is a program that gives students the opportunity to work in teams with guidance from academic leads. It helps students think, build, innovate, create and solve real-life problems, and understand how their studies connect to practical application.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "How do I get access to the TalkCampus app as a UTS student?",
+      "answer": "As a UTS student, you can access the TalkCampus app, which provides peer support for mental health and wellbeing, by following these steps:\n\n1. **Check UTS Resources:** UTS often partners with wellbeing apps like TalkCampus. Visit the UTS Student Wellbeing website or the UTS Student Portal to see if there are any current arrangements or access codes provided for students.\n\n2. **Download the App:** TalkCampus is available for free on both the Apple App Store and Google Play Store. Download and install the app on your smartphone.\n\n3. **Sign Up Using Your UTS Email:** When creating an account, use your UTS student email address if required. Some university partnerships allow verification through your student email to unlock additional features or communities.\n\n4. **Access Through UTS Services:** If UTS has a specific access program, you might need to log in via the UTS Single Sign-On (SSO) or use a special access code provided by UTS Student Wellbeing or the Counselling Service.\n\n5. **Contact UTS Student Wellbeing:** If you\u2019re unsure or need assistance, contact UTS Student Wellbeing or the Counselling Service. They can provide the latest information on accessing TalkCampus and support services available to you.\n\n**Useful links:**\n- [UTS Student Wellbeing](https://www.uts.edu.au/current-students/support/student-wellbeing)\n- [TalkCampus website](https://talkcampus.com/)\n\nIf no direct UTS access is available, you can still use TalkCampus independently by downloading the app and signing up.",
+      "reference": "All current UTS students get free access to TalkCampus. Download the app from the App Store or Google Play, then sign up using your UTS student email address.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6
+    },
+    {
+      "question": "What kind of help can the International Student Centre give current international students?",
+      "answer": "The International Student Centre (ISC) at the University of Technology Sydney (UTS) provides a wide range of support services to current international students. These include:\n\n1. **Orientation and Transition Support:** Helping new international students settle into university life and adjust to living in Australia through orientation programs and workshops.\n\n2. **Visa and Immigration Advice:** Offering guidance on student visa conditions, work rights, and compliance with Australian immigration regulations.\n\n3. **Academic Support:** Providing resources and referrals to assist with academic challenges, including study skills workshops and language support.\n\n4. **Personal and Wellbeing Support:** Offering counseling services, mental health support, and referrals to health services to help students manage personal issues and wellbeing.\n\n5. **Social and Cultural Activities:** Organizing events, clubs, and activities to help international students connect with others and engage with the UTS community.\n\n6. **Practical Assistance:** Helping with issues such as accommodation, financial advice, and understanding Australian laws and customs.\n\n7. **Career Support:** Providing advice on work rights, resume writing, job search strategies, and internships to support students\u2019 career development.\n\nOverall, the ISC aims to ensure international students have a positive and successful experience at UTS by providing comprehensive support tailored to their unique needs.",
+      "reference": "The International Student Centre can provide official documents to prove your status as a UTS student, such as a Confirmation of Enrolment (CoE), student verification letter, and statement of course completion. It can also help with residency status changes, general student visa issues, and other study-related issues if you're not sure who to talk to.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "If I'm an international student, how can I get in touch about this area?",
+      "answer": "If you are an international student and want to get in touch with the University of Technology Sydney (UTS) regarding admissions, courses, or any other inquiries, you can contact the UTS International Office. Here are some ways to reach out:\n\n1. **Email:** You can email the UTS International Office at international@uts.edu.au for general inquiries.\n\n2. **Phone:** Call the UTS International Office on +61 2 9514 1151 (note the time difference if you are overseas).\n\n3. **Online Enquiry Form:** Visit the UTS website and use their international student enquiry form to submit your questions.\n\n4. **Live Chat:** UTS often offers a live chat service on their website for prospective international students.\n\n5. **Social Media:** You can also connect with UTS International on platforms like Facebook, Instagram, or LinkedIn for updates and support.\n\nFor more detailed information, visit the UTS International Students webpage: https://www.uts.edu.au/future-students/international\n\nThis will provide you with comprehensive support and guidance tailored to international students.",
+      "reference": "International students should complete the international student enquiry form. The information provided will be used to respond to the enquiry and may also be used to provide general information about the university.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What usually happens in a one-hour U:PASS session?",
+      "answer": "In a one-hour U:PASS session at UTS, students typically engage in peer-assisted study where a trained U:PASS leader facilitates collaborative learning. The session usually involves reviewing key concepts from recent lectures, discussing challenging topics, working through practice problems, and sharing effective study strategies. It provides a supportive environment for students to ask questions, clarify doubts, and deepen their understanding of the subject matter through group interaction and active participation.",
+      "reference": "In a typical one-hour session, you compare notes, work through problems and past exam questions, share study tips, and discuss course material with other students and your Peer Leader.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Can I study project management flexibly if I'm working, and what study options are available?",
+      "answer": "Yes, at UTS you can study project management flexibly while working. UTS offers a range of study options designed to accommodate working professionals, including part-time study and online or blended learning modes. This flexibility allows you to balance your work commitments with your studies. You can choose to study project management through courses such as the Master of Project Management or relevant units within other degrees, with options to attend classes on campus, online, or a combination of both. It\u2019s best to check the specific course details on the UTS website or contact the UTS admissions team for the most up-to-date information on available study modes and scheduling.",
+      "reference": "Yes. The course content is designed for working professionals, and interactive block mode study lets you schedule learning around daily life. You can enrol in the Graduate Certificate in Project Management to gain fundamental skills and a postgraduate qualification, or progress to the Master\u2019s with credit recognition.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Does UTS offer any support for students who need help with maths or science subjects?",
+      "answer": "Yes, UTS offers support for students who need help with maths or science subjects. The university provides various resources such as workshops, tutoring sessions, and online materials through the UTS Learning Hub and the UTS Library. Additionally, the UTS Student Services often run academic skills programs, including maths and science support, to help students improve their understanding and performance in these areas. Students can also access one-on-one consultations with academic advisors or tutors to get personalized assistance. For the most current details, it\u2019s best to check the UTS website or contact the Student Services directly.",
+      "reference": "Yes. UTS: Science has a support centre for mathematical studies-related issues, and the Mathematics and Science Study Centre provides support for undergraduate and postgraduate students in introductory mathematical and quantitative areas, including statistics.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What does digital finance mean in the article?",
+      "answer": "In the context of the article, \"digital finance\" refers to the use of digital technologies to deliver financial services and manage financial activities. This includes online banking, mobile payment systems, digital currencies, blockchain technology, and other innovations that enable faster, more efficient, and more accessible financial transactions and services. Digital finance transforms traditional financial processes by leveraging technology to improve convenience, security, and inclusivity in the financial sector.",
+      "reference": "Digital finance is described as using technology to create entirely new types of markets where anything of value can be exchanged digitally. It\u2019s more than just moving money online.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.3,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "question": "I'm an international student and want to make an enquiry. How do I contact UTS, and what information do I need to provide?",
+      "answer": "If you are an international student and want to make an enquiry at UTS (University of Technology Sydney), you can contact the university through the following ways:\n\n**Contact Methods:**\n1. **International Student Enquiries Phone:**  \n   +61 2 9514 1333  \n   (Available Monday to Friday, 9am to 5pm AEST)\n\n2. **Email:**  \n   international@uts.edu.au\n\n3. **Online Enquiry Form:**  \n   Visit the UTS International website and fill out the enquiry form for prospective international students:  \n   [UTS International Enquiry Form](https://www.uts.edu.au/future-students/international)\n\n4. **Live Chat:**  \n   Available on the UTS International website during business hours.\n\n**Information to Provide:**\nWhen making your enquiry, it helps to provide the following details to get the most accurate and helpful response:\n\n- Your full name  \n- Your country of residence  \n- The course or program you are interested in  \n- Your current level of education and qualifications  \n- Any specific questions or concerns you have (e.g., admission requirements, scholarships, visa information, English language requirements)  \n- Your contact details (email and phone number)\n\nProviding this information will help UTS staff assist you efficiently and provide tailored advice for your situation.\n\nFor more detailed information, you can also visit the UTS International website:  \nhttps://www.uts.edu.au/future-students/international\n\nIf you need assistance with applications, scholarships, or student support services, the international student support team is available to help.",
+      "reference": "International students should complete the international student enquiry form. Required fields include study level, first name, last name, email, mobile, course area, and the type of enquiry.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Before I enrol in subjects, which handbook should I use to check my course completion requirements?",
+      "answer": "Before you enrol in subjects at UTS, you should use the **UTS Handbook for your specific year of admission** to check your course completion requirements. The handbook relevant to your year of admission outlines the rules, subjects, and requirements that apply to your course. You can access the UTS Handbook online at the official UTS website and select the correct year to ensure you are viewing the accurate information for your course.",
+      "reference": "You should check the handbook for the year you commenced your current course. If you commenced in 2024 or earlier, use the Handbook archive; if you commenced in 2025 or later, use the UTS Handbook.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What kinds of things should I avoid doing if I want to stay clear of academic misconduct when creating my assessment?",
+      "answer": "To stay clear of academic misconduct when creating your assessment at UTS, you should avoid the following:\n\n1. **Plagiarism:** Do not copy text, ideas, images, or data from any source without proper citation. Always acknowledge the original authors and use quotation marks for direct quotes.\n\n2. **Collusion:** Avoid working with others on individual assessments unless explicitly allowed. Submitting work that is not your own or sharing your work with others for submission is considered collusion.\n\n3. **Fabrication or Falsification:** Do not invent or alter data, results, or references. Ensure all information you provide is accurate and truthful.\n\n4. **Cheating:** Do not use unauthorized materials, devices, or assistance during exams or assessments.\n\n5. **Submitting the Same Work Twice:** Avoid submitting the same or substantially similar work for different subjects without prior approval.\n\n6. **Improper Referencing:** Follow UTS\u2019s referencing guidelines carefully. Incorrect or missing references can be considered academic misconduct.\n\n7. **Unauthorized Collaboration:** Only collaborate when permitted and ensure your contribution is clearly your own.\n\nBy adhering to UTS\u2019s Academic Integrity Policy and using resources like the UTS Library\u2019s referencing guides and Turnitin for originality checks, you can maintain academic honesty and avoid misconduct. If in doubt, seek advice from your lecturer or academic advisor.",
+      "reference": "Don\u2019t use translation tools to translate your assessment into English, don\u2019t copy someone else\u2019s assessment, and don\u2019t get someone else to write it for you. You should also not buy or use assessments from the internet or file sharing platforms, or use ghost-writing services.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "Where can I find the Lowest Selection Rank for a recent school leaver?",
+      "answer": "At UTS, you can find the Lowest Selection Rank for a recent school leaver on the official UTS website, specifically on the course admission requirements or the UAC (Universities Admissions Centre) webpage. The Lowest Selection Rank indicates the minimum ATAR or equivalent score that was required for entry into a particular course in the most recent admission cycle. \n\nTo locate this information:\n\n1. Visit the UTS Admissions page: https://www.uts.edu.au/future-students/domestic\n2. Navigate to the specific course you are interested in.\n3. Look for the \"Entry requirements\" or \"Selection rank\" section.\n4. Alternatively, check the UAC website (https://www.uac.edu.au/) and search for UTS courses, where the Lowest Selection Rank for recent school leavers is published annually.\n\nIf you need the most up-to-date or detailed information, contacting UTS Admissions directly via email or phone can also be helpful.",
+      "reference": "The course information pages display the Lowest Selection Rank to which an offer was made for a recent school leaver in the most recent intake period.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "I'm enrolled in a UTS Law short course with assessment \u2014 where should I check the rules for extensions, special consideration, and final results?",
+      "answer": "If you are enrolled in a UTS Law short course with assessment, you should check the specific course information provided by the UTS Law Faculty or the short course coordinator for rules regarding extensions, special consideration, and final results. Generally, these details can be found in:\n\n1. **The course outline or handbook** for your short course, which often includes assessment policies.\n2. **UTS Student Rules and Policies**, available on the UTS website, which cover extensions and special consideration procedures.\n3. **The UTS Law Faculty website or student portal**, where specific guidelines for Law short courses may be posted.\n4. **Contacting your course coordinator or the UTS Law Student Centre** directly for clarification.\n\nFor extensions and special consideration, UTS typically requires students to submit applications through the official UTS Student Portal or via the designated process outlined in the course materials. Final results are usually released through the UTS Student Portal once assessments have been marked.\n\nIf you cannot find the information in your course materials, it\u2019s best to reach out to the UTS Law Student Centre or your course coordinator for precise guidance.",
+      "reference": "These processes may differ from regular coursework subjects. You should refer to the short course\u2019s UTS Open Canvas site and the official course outline for guidance.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7
+    },
+    {
+      "question": "What are some critical questions I can ask when reading academically?",
+      "answer": "When reading academically, especially at a university like UTS, it\u2019s important to engage critically with the text to deepen your understanding and develop your analytical skills. Here are some critical questions you can ask:\n\n1. **What is the author\u2019s main argument or thesis?**  \n   - Identify the central claim the author is making.\n\n2. **What evidence does the author provide to support their argument?**  \n   - Consider the quality, relevance, and sufficiency of the evidence.\n\n3. **What assumptions underlie the author\u2019s argument?**  \n   - Are there any unstated beliefs or biases influencing the perspective?\n\n4. **How does this text relate to other readings or theories in the field?**  \n   - Compare and contrast with other academic sources you have encountered.\n\n5. **What are the strengths and weaknesses of the argument?**  \n   - Evaluate the logic, coherence, and persuasiveness of the text.\n\n6. **Are there alternative interpretations or counterarguments?**  \n   - Think about other ways to understand the issue or evidence.\n\n7. **What is the significance or implication of the findings?**  \n   - Consider how this contributes to the field or impacts practice.\n\n8. **Who is the intended audience, and how does that influence the content?**  \n   - Reflect on the purpose and tone of the writing.\n\n9. **What questions remain unanswered or what further research is suggested?**  \n   - Identify gaps or areas for future exploration.\n\n10. **How does the author\u2019s background or context influence their perspective?**  \n    - Consider the author\u2019s position, discipline, or cultural context.\n\nBy asking these questions, you can read more actively and critically, which will enhance your academic learning and writing at UTS.",
+      "reference": "The text says critical reading involves asking questions such as what evidence an argument is based on, how it relates to other concepts you've learned, what your perspective on the issue is and why, and what else you need to find out for a better or more balanced understanding.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "What course areas can I choose from on the UTS high school students page?",
+      "answer": "On the UTS high school students page, you can explore a variety of course areas designed to give you insight into university study and help you prepare for your future. These course areas typically include:\n\n- **Business and Law**  \n- **Engineering and IT**  \n- **Health**  \n- **Science**  \n- **Design, Architecture and Building**  \n- **Communication**  \n- **Education**  \n- **Creative Intelligence and Innovation**\n\nThese areas offer a range of subjects and programs tailored for high school students, such as workshops, short courses, and introductory units, allowing you to experience university-level study in fields that interest you. For the most up-to-date and detailed information, it\u2019s best to visit the official UTS high school students webpage.",
+      "reference": "The page lists course areas including Animation and Visualisation, Architecture, Building, Business, Communication, Criminology, Design, Education, Engineering, Health, Information Technology, International Studies and Social Sciences, Law, Public Policy and Governance, Science and Mathematics, Sustainability, and Transdisciplinary Innovation. It also includes an option for students who are not sure.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.45,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "Where is the UTS Law faculty located now, and what student spaces are available there?",
+      "answer": "The UTS Law faculty is currently located in the UTS Building 10, also known as the UTS Law Building, situated at 15 Broadway, Ultimo campus. This state-of-the-art facility is designed specifically for law students and includes a range of dedicated student spaces.\n\nAvailable student spaces in the UTS Law Building include:\n\n- **Law Library:** A specialized library with extensive legal resources, study areas, and computer access.\n- **Student Lounges and Collaboration Zones:** Comfortable areas for group work, discussions, and relaxation.\n- **Moot Courtrooms:** Simulated courtrooms for practical learning and moot competitions.\n- **Study Rooms:** Bookable rooms for individual or group study.\n- **Computer Labs:** Equipped with legal research software and general computing facilities.\n- **Caf\u00e9s and Social Spaces:** Areas to eat, socialize, and network with peers.\n\nThese facilities provide a supportive and engaging environment tailored to the needs of law students at UTS.",
+      "reference": "The UTS Law faculty is located on floors 14 to 16 of the UTS Central building (Building 2) in the Broadway area. It includes student and teaching spaces such as a moot court, trial courts, and an exclusive law student lounge.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7
+    },
+    {
+      "question": "What kinds of things is AI still struggling with?",
+      "answer": "AI is still struggling with several complex challenges, including:\n\n1. **Understanding Context and Nuance:** AI often has difficulty fully grasping the subtlety and context of human language, such as sarcasm, humor, idioms, and cultural references.\n\n2. **Common Sense Reasoning:** Unlike humans, AI lacks innate common sense knowledge, making it hard for AI to make everyday judgments or understand implicit information.\n\n3. **Generalization:** AI systems typically perform well on specific tasks they are trained for but struggle to generalize knowledge across different domains or adapt to new, unseen situations.\n\n4. **Creativity and Original Thought:** While AI can generate content based on patterns, it struggles with genuine creativity, innovation, and producing truly original ideas.\n\n5. **Ethical and Moral Decision-Making:** AI lacks human values and ethics, making it challenging to navigate complex moral dilemmas or make decisions that require empathy and ethical considerations.\n\n6. **Handling Ambiguity and Uncertainty:** AI systems often find it difficult to deal with ambiguous or incomplete information and may produce unreliable outputs in such cases.\n\n7. **Learning from Small Data:** Many AI models require large amounts of data to learn effectively, whereas humans can learn from very few examples.\n\nThese challenges highlight ongoing areas of research and development in AI to make systems more robust, adaptable, and aligned with human needs.",
+      "reference": "AI is still struggling with general knowledge, humour, empathy, emotional intelligence, understanding people in a humane way, and ethics.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "What do I need to be eligible to be considered for admission to UTS, and are there other requirements for some courses?",
+      "answer": "To be eligible for admission to the University of Technology Sydney (UTS), you generally need to meet the following criteria:\n\n1. **Academic Qualifications:**  \n   - Completion of an Australian Year 12 qualification (such as the Higher School Certificate, HSC) or an equivalent overseas qualification.  \n   - Meeting the minimum ATAR (Australian Tertiary Admission Rank) or equivalent score required for your chosen course.\n\n2. **English Language Proficiency:**  \n   - If English is not your first language, you may need to provide evidence of English proficiency through tests such as IELTS, TOEFL, or equivalent.\n\n3. **Additional Requirements for Some Courses:**  \n   - Certain courses at UTS have additional entry requirements beyond academic qualifications. These may include:  \n     - **Portfolio submission** (common for design, architecture, and creative arts courses).  \n     - **Interviews or auditions** (for courses in performing arts, music, or communication).  \n     - **Prerequisite subjects** (such as mathematics or science subjects for engineering or health-related courses).  \n     - **Work experience or industry placements** (for some professional or vocational programs).  \n     - **Personal statements or written applications**.\n\n4. **Special Entry Schemes:**  \n   - UTS also offers alternative pathways and special entry schemes for Indigenous students, students from disadvantaged backgrounds, or those with non-traditional qualifications.\n\nIt\u2019s important to check the specific admission requirements for your intended course on the UTS website or contact the admissions office directly, as requirements can vary significantly between courses and may change over time.",
+      "reference": "You must first satisfy UTS's minimum standard to be eligible for consideration. For some specific courses, there may also be other criteria you need to meet.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "Where can I get academic support and updates about end-of-session exams?",
+      "answer": "At UTS, you can get academic support and updates about end-of-session exams through several key resources:\n\n1. **UTS Student Hub**: The Student Hub provides comprehensive academic support services, including study skills workshops, tutoring, and exam preparation resources. You can visit the Student Hub in person or access their services online via the UTS website.\n\n2. **UTS Online (Canvas)**: Your course site on UTS Online (Canvas) is regularly updated with important announcements, including exam schedules, formats, and any changes. Make sure to check your course pages frequently.\n\n3. **Faculty or School Office**: Each faculty or school at UTS often provides specific academic support and exam information. Contact your faculty office or check their website for tailored updates.\n\n4. **UTS Exams Website**: The official UTS Exams webpage offers detailed information about exam timetables, locations, rules, and procedures. It is regularly updated during the exam period.\n\n5. **Academic Advisors and Course Coordinators**: For personalized academic support or queries about exams, you can reach out to your academic advisor or course coordinator.\n\n6. **UTS Student Services**: They offer additional support services, including counseling and wellbeing support, which can be helpful during exam periods.\n\nFor the most accurate and up-to-date information, regularly check your UTS email and the official UTS websites related to exams and student support.",
+      "reference": "Academic support is available via the support page. You should also check your UTS email inbox, the Exams FAQ, and the Online invigilated exams pages for updates, and contact Ask UTS if you have other questions.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "I\u2019ve accepted my offer and enrolled in subjects. How do I defer my offer, and will I need to submit a course withdrawal request?",
+      "answer": "If you have already accepted your offer and enrolled in subjects at UTS but wish to defer your offer, you will need to follow the university\u2019s formal deferral process. Generally, deferral requests must be submitted before the census date of your enrolled subjects to avoid academic and financial penalties.\n\nHere\u2019s what you should do:\n\n1. **Submit a Deferral Request:**  \n   Contact UTS Admissions or use the online portal to apply for deferral of your offer. You will need to provide a valid reason for deferral and specify the semester or year you wish to defer to.\n\n2. **Course Withdrawal Request:**  \n   If you have already enrolled in subjects, you will typically need to submit a course withdrawal request to officially withdraw from your current subjects. This helps ensure you are not marked as enrolled and avoid any fees or academic penalties.\n\n3. **Check Deadlines:**  \n   Make sure to check the relevant deadlines for deferral and withdrawal on the UTS website or student portal, as these dates are important to avoid financial liability.\n\n4. **Contact Student Services:**  \n   If you are unsure about the process or deadlines, it\u2019s a good idea to contact UTS Student Central or your faculty\u2019s student support team for guidance.\n\nIn summary, yes\u2014you will generally need to submit a course withdrawal request if you have enrolled in subjects and want to defer your offer. Always confirm the specific requirements and deadlines with UTS to ensure a smooth deferral process.",
+      "reference": "Submit an ASK UTS Online Enquiry. In requesting to defer your offer, you will be withdrawn from any enrolled subjects for 2026. You don't need to submit a course withdrawal request.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "How does UTS prepare students for new film technologies like AI and virtual production?",
+      "answer": "UTS prepares students for new film technologies like AI and virtual production through its innovative curriculum, industry partnerships, and access to cutting-edge facilities. The university\u2019s Bachelor of Design in Animation and Bachelor of Communication in Media Arts programs, for example, incorporate emerging technologies such as AI-driven tools, virtual reality (VR), augmented reality (AR), and virtual production techniques into their coursework. \n\nUTS emphasizes hands-on learning, allowing students to work with the latest software and hardware used in the film and media industries. The UTS Creative Intelligence Studio and other specialized labs provide students with opportunities to experiment with virtual production workflows, motion capture, and real-time rendering technologies.\n\nAdditionally, UTS maintains strong connections with industry professionals and companies, offering internships, workshops, and guest lectures that expose students to current trends and practical applications of AI and virtual production in filmmaking. This combination of theoretical knowledge, practical experience, and industry engagement equips UTS students with the skills needed to adapt to and lead in the evolving landscape of film technology.",
+      "reference": "UTS has students work with academics and industry professionals to learn how technologies like AI can support creative work. Students are encouraged to experiment with new tools, and UTS also supports hands-on learning through industry partnerships such as ARRI, AVID and the Australian Directors\u2019 Guild.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What topics are covered in UTS's Environmental Sciences courses?",
+      "answer": "UTS's Environmental Sciences courses cover a broad range of topics designed to provide students with a comprehensive understanding of environmental systems, challenges, and solutions. Key topics typically include:\n\n- **Ecology and Biodiversity:** Study of ecosystems, species interactions, and conservation biology.\n- **Environmental Chemistry:** Understanding chemical processes in the environment, pollution, and toxicology.\n- **Climate Change and Sustainability:** Examination of climate systems, impacts of climate change, and sustainable development practices.\n- **Environmental Management and Policy:** Strategies for managing natural resources, environmental law, and policy frameworks.\n- **Geospatial Analysis and Remote Sensing:** Use of GIS and remote sensing technologies for environmental monitoring and analysis.\n- **Water and Soil Science:** Study of hydrological cycles, water quality, soil properties, and land management.\n- **Environmental Impact Assessment:** Methods for assessing and mitigating the environmental impacts of development projects.\n- **Renewable Energy and Resource Management:** Exploration of alternative energy sources and sustainable resource use.\n\nThese topics equip students with scientific knowledge, practical skills, and policy understanding to address complex environmental issues. For the most current and detailed course content, it is recommended to consult the UTS official course handbook or website.",
+      "reference": "UTS\u2019s Environment and Marine courses combine general science subjects with specialist study in aquatic and terrestrial ecosystems, plant physiology, biodiversity conservation, wildlife management and environmental protection.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6
+    },
+    {
+      "question": "What do I need to be eligible to apply for a UTS postgraduate course as a domestic student?",
+      "answer": "To be eligible to apply for a UTS postgraduate course as a domestic student, you generally need to meet the following requirements:\n\n1. **Academic Qualifications:**  \n   - You must have completed an Australian bachelor\u2019s degree or equivalent qualification from a recognized institution.  \n   - Some courses may require a specific undergraduate degree or relevant professional experience.\n\n2. **English Language Proficiency:**  \n   - If your previous studies were not conducted in English, you may need to provide evidence of English language proficiency through tests such as IELTS, TOEFL, or equivalent.\n\n3. **Additional Requirements:**  \n   - Certain courses may have additional prerequisites such as work experience, a portfolio, or an interview.  \n   - Some programs may require you to meet a minimum GPA or have completed specific subjects.\n\n4. **Citizenship/Residency:**  \n   - You must be an Australian citizen, Australian permanent resident, or hold a New Zealand citizenship to be considered a domestic student.\n\nIt\u2019s important to check the specific entry requirements for the postgraduate course you are interested in on the UTS website or contact the UTS admissions office, as requirements can vary between courses.",
+      "reference": "You need to meet UTS postgraduate admission requirements, which include relevant qualifications or experience, English language proficiency, and any course-specific requirements. The general admission requirement is an Australian bachelor degree or an overseas equivalent, though some courses may consider other qualifications or work experience.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What does the UTS Southeast Asia International Scholarship cover and who is it for?",
+      "answer": "The UTS Southeast Asia International Scholarship is designed for high-achieving students from Southeast Asian countries who wish to study at the University of Technology Sydney. This scholarship provides a tuition fee reduction, typically covering a significant portion of the international student tuition fees for eligible undergraduate or postgraduate coursework programs. It aims to support talented students from the Southeast Asia region in pursuing their studies at UTS by making education more affordable. \n\nFor the most accurate and detailed information, including the exact value of the scholarship, eligibility criteria, and application process, it is recommended to visit the official UTS scholarships webpage or contact the UTS International Office directly.",
+      "reference": "It covers 20% of tuition fees. It is for commencing international students from Southeast Asia who want to study an undergraduate or postgraduate coursework program at UTS in Sydney.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7
+    },
+    {
+      "question": "How do I accept my UTS scholarship offer if I'm a domestic student?",
+      "answer": "If you are a domestic student and have received a scholarship offer from UTS, you can accept your scholarship by following these steps:\n\n1. **Check your email:** UTS will send you an official scholarship offer via your student email or the email address you provided during your application.\n\n2. **Log in to the UTS Student Portal:** Use your UTS student credentials to access the portal where you can view your scholarship details.\n\n3. **Accept the offer:** Follow the instructions provided in the scholarship offer email or on the portal to formally accept your scholarship. This may involve clicking an acceptance link or completing an online form.\n\n4. **Confirm any additional requirements:** Some scholarships may require you to submit further documentation or meet specific conditions. Make sure to review these carefully and comply by the deadlines.\n\n5. **Contact UTS Scholarships Office if needed:** If you have any questions or issues accepting your scholarship, you can contact the UTS Scholarships Office for assistance. Their contact details are usually provided in the offer email or on the UTS website.\n\nIt\u2019s important to accept your scholarship offer by the deadline specified to secure your funding. If you miss the deadline, your scholarship may be withdrawn.\n\nFor the most accurate and detailed instructions, you can also visit the official UTS Scholarships webpage or contact the Scholarships Office directly.",
+      "reference": "After you receive an email from UTS offering you a scholarship, log in to My Student Admin using your student ID email address and password. Then go to the Scholarships tab, select your scholarship, click Accept, update your bank account details, enter any other details, and click Save acceptance.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Why might a student choose to study in Sydney through this program?",
+      "answer": "A student might choose to study in Sydney through this program at UTS because Sydney is a vibrant, multicultural city known for its strong economy, diverse industries, and excellent quality of life. Studying in Sydney provides access to world-class education, cutting-edge facilities, and opportunities for networking and internships with leading companies. Additionally, UTS offers innovative, industry-focused programs that prepare students for global careers, all within a dynamic urban environment that supports both academic and personal growth.",
+      "reference": "Sydney has a sunny, coastal lifestyle, a mix of cultures, and friendly people. It is described as a vibrant, diverse and tolerant city.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6
+    },
+    {
+      "question": "When should I use 'a' versus 'an' in my writing?",
+      "answer": "You should use **'a'** before words that begin with a **consonant sound**, and **'an'** before words that begin with a **vowel sound** (a, e, i, o, u). \n\nFor example:\n- Use **'a'** before words like *a university* (because 'university' starts with a 'y' consonant sound), *a book*, *a car*.\n- Use **'an'** before words like *an apple*, *an hour* (because 'hour' starts with a vowel sound, the 'h' is silent), *an idea*.\n\nRemember, it\u2019s the sound that matters, not just the first letter. This rule helps your writing sound natural and clear.",
+      "reference": "'A' is used before a noun or noun phrase that begins with a consonant sound, and 'an' is used before a noun or noun phrase that begins with a vowel sound.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.95,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "If I'm having personal or academic problems as a mature age student, what support services can I use?",
+      "answer": "If you are a mature age student at UTS experiencing personal or academic problems, there are several support services available to help you:\n\n1. **Student Counselling Service**  \n   UTS offers free and confidential counselling to support your mental health and wellbeing. Counsellors can assist with personal issues, stress, anxiety, and other challenges you may be facing.\n\n2. **Academic Skills Support**  \n   The Academic Skills team provides workshops, resources, and one-on-one consultations to help you improve your study skills, time management, academic writing, and exam preparation.\n\n3. **Student Support and Advocacy**  \n   The Student Support team can help you navigate university policies, provide advice on academic progress, and connect you with relevant services. They also offer advocacy if you need assistance with academic or administrative issues.\n\n4. **Mature Age Student Support**  \n   UTS recognises the unique challenges mature age students may face and offers tailored support, including peer networks and specific resources to help balance study with other life commitments.\n\n5. **Equity and Disability Support**  \n   If you have a disability or require adjustments, the Equity and Disability Support team can provide accommodations and support to ensure you have equal access to your studies.\n\n6. **Financial Support**  \n   If financial stress is impacting your studies, UTS provides information on scholarships, emergency financial assistance, and budgeting advice.\n\nTo access these services, you can visit the UTS website or contact the Student Services team directly. It\u2019s encouraged to reach out early to get the support you need.\n\n---\n\n**Useful links:**  \n- UTS Student Counselling: [https://www.uts.edu.au/current-students/support/student-counselling](https://www.uts.edu.au/current-students/support/student-counselling)  \n- Academic Skills: [https://www.uts.edu.au/current-students/support/academic-skills](https://www.uts.edu.au/current-students/support/academic-skills)  \n- Student Support: [https://www.uts.edu.au/current-students/support/student-support](https://www.uts.edu.au/current-students/support/student-support)  \n\nIf you need immediate assistance, UTS also provides 24/7 crisis support services.",
+      "reference": "Seek help early. Services that provide a range of assistance include Counselling, Health, Accessibility Service, Financial Assistance, Careers and HELPS.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "Can my previous study at another university or TAFE count towards recognition of prior learning for a Design, Architecture or Built Environment course at UTS?",
+      "answer": "Yes, your previous study at another university or TAFE can potentially count towards Recognition of Prior Learning (RPL) for a Design, Architecture, or Built Environment course at UTS. UTS assesses prior learning and formal study to determine if it meets the learning outcomes and content of their courses. To apply for RPL, you will need to provide detailed evidence of your previous studies, such as transcripts, course outlines, and any relevant work experience. The Faculty will then evaluate your application to decide if credit can be granted, which may reduce the duration of your UTS course. It is recommended to contact the UTS Admissions or the specific faculty office for detailed guidance and to start the RPL application process.",
+      "reference": "Yes. If you have studied these subject areas at an Australian university, international university, UTS College, TAFE, or another college or institution, you can apply for recognition of prior learning (RPL). RPL is granted subject to UTS Student Rules and UTS DAB RPL guidelines.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What majors are available in the C09119 Bachelor of Computing Science (Honours) course?",
+      "answer": "The C09119 Bachelor of Computing Science (Honours) at UTS offers a comprehensive program focused on advanced computing knowledge and research skills. While the course itself is an honours degree in Computing Science, it typically does not have \"majors\" in the traditional sense like some other degrees. Instead, students undertake a combination of core advanced computing subjects and a significant research project or thesis in a specialized area of computing.\n\nHowever, students can often tailor their studies through elective subjects in areas such as:\n\n- Software Development\n- Data Science and Analytics\n- Artificial Intelligence and Machine Learning\n- Cybersecurity\n- Human-Computer Interaction\n- Networks and Distributed Systems\n- Algorithms and Theory of Computing\n\nFor the most accurate and detailed information about available specializations or elective options within the Bachelor of Computing Science (Honours), it is best to consult the official UTS Handbook or contact the UTS Faculty of Engineering and Information Technology directly.",
+      "reference": "The course lists these majors: AI and Data Analytics, Business Information Systems Management, Cybersecurity and Privacy, Enterprise Systems Development, Interaction Design, Mathematical Analysis, Networking and Cybersecurity, and Quantum Information Science.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.4
+    },
+    {
+      "question": "Are the UTS campus tour and UTS Info Day 2025 free to attend, and are they online?",
+      "answer": "Yes, both the UTS campus tour and UTS Info Day 2025 are free to attend. The campus tours are typically held in person on the UTS campus, allowing prospective students to explore the facilities and get a feel for the university environment. UTS Info Day 2025 usually offers both in-person and online options, so you can choose to attend on campus or participate virtually depending on your preference. It\u2019s best to check the official UTS website closer to the event date for the most up-to-date details and registration information.",
+      "reference": "Yes. Both the UTS campus tour and UTS Info Day 2025 are listed as free admission and are online/on-demand.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.3,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "If my guest is unwell on my graduation ceremony day, can I bring someone else instead?",
+      "answer": "At UTS, if your original guest is unwell on your graduation ceremony day and cannot attend, you are generally allowed to bring someone else in their place. Graduation tickets are usually issued to the graduate, and guests use these tickets to enter the ceremony. As long as the replacement guest has a valid ticket or the ticket can be transferred, they should be able to attend.\n\nHowever, it\u2019s important to check the specific instructions provided by UTS for your graduation ceremony, as there may be particular rules about ticket transfers or guest changes. If you have any doubts or need assistance, you can contact the UTS Graduation Office or the event organizers directly for clarification.\n\nIn summary: Yes, you can usually bring someone else if your original guest is unwell, but make sure the replacement guest has the appropriate ticket and confirm any specific policies with UTS.",
+      "reference": "Yes. Please ask unwell guests not to come to campus for the safety of others, and you may bring an alternative guest as long as they have the ticket to scan. Any additional guest tickets purchased, where available, are non-refundable.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What study options can undergraduate law students take at overseas exchange partner universities through the international exchange program?",
+      "answer": "Undergraduate law students at UTS have the opportunity to participate in the International Exchange Program, which allows them to study at UTS\u2019s overseas partner universities. Through this program, students can take law units that complement their UTS degree while experiencing different legal systems and cultures. The study options typically include a range of law subjects offered by the partner institutions, which may cover areas such as international law, comparative law, human rights law, commercial law, and other specialized topics depending on the host university.\n\nUTS has exchange partnerships with a number of reputable universities around the world, including institutions in countries such as the United States, Canada, the United Kingdom, Europe, Asia, and New Zealand. The exact units available vary by partner university, but the program is designed to ensure that the courses taken overseas can be credited towards the UTS Bachelor of Laws degree.\n\nIn summary, undergraduate law students can study a variety of law subjects at overseas partner universities through the UTS International Exchange Program, gaining international legal perspectives and academic credit towards their degree. For specific partner universities and available units, students should consult the UTS International Exchange website or speak with the Faculty of Law\u2019s exchange coordinator.",
+      "reference": "Undergraduate students can undertake three or four law or non-law subject options from CBK92209 Electives (Law), or three law subjects from CBK92208 Options, or four law subjects from CBK90922 Options (Law UG) if not using PLT as part of their degree.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "If I'm having trouble logging into Mentimeter with my UTS account, where can I get help?",
+      "answer": "If you're having trouble logging into Mentimeter with your UTS account, you can get help by contacting the UTS IT Service Desk. They provide support for login issues and can assist with access problems related to university accounts. You can reach them via:\n\n- Phone: +61 2 9514 8888  \n- Email: itservicedesk@uts.edu.au  \n- Online: Submit a request through the UTS IT Service Desk portal on the UTS website\n\nAdditionally, you may want to check the UTS Student Portal or the Mentimeter help resources for any specific instructions on logging in with your UTS credentials.",
+      "reference": "If you have trouble logging into Mentimeter using your UTS credentials via Single sign on (SSO) or Okta Multi-factor authentication, you can find information about Multi-factor authentication online or contact the UTS IT Support Centre. For Mentimeter support, you can also email hello@mentimeter.com or use the blue chat bubble on the platform.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Who can apply for the UTS College to UTS Transfer Scholarship?",
+      "answer": "The UTS College to UTS Transfer Scholarship is available to students who have successfully completed a UTS College diploma or foundation program and are transferring to a UTS undergraduate degree. Applicants typically need to have achieved a strong academic result in their UTS College program and meet any specific eligibility criteria set by the scholarship, such as enrolling full-time in a UTS undergraduate course. It is designed to support and reward UTS College students who continue their studies at UTS.\n\nFor the most accurate and detailed eligibility requirements, it is recommended to check the official UTS scholarships webpage or contact UTS College directly.",
+      "reference": "Applicants must remain an international student, commence full-time on-campus studies at UTS, and meet UTS admission criteria for the selected course.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What careers can a health degree at UTS lead to?",
+      "answer": "A health degree at the University of Technology Sydney (UTS) can lead to a variety of careers in the healthcare and allied health sectors. Depending on the specific health program or major you choose, potential career paths include:\n\n- **Public Health Professional:** Working in health promotion, disease prevention, policy development, and community health programs.\n- **Health Services Manager:** Managing healthcare facilities, programs, or departments to improve service delivery.\n- **Occupational Therapist:** Helping individuals develop or recover skills needed for daily living and working (available through specific accredited programs).\n- **Physiotherapist:** Assisting patients in improving movement and managing pain (through accredited physiotherapy programs).\n- **Nutritionist/Dietitian:** Providing dietary advice and developing nutrition plans to promote health and manage diseases.\n- **Exercise Physiologist:** Designing exercise programs to improve health outcomes for individuals with chronic conditions.\n- **Health Researcher:** Conducting research to improve health outcomes, policies, and practices.\n- **Community Health Worker:** Supporting health education and services in community settings.\n- **Health Promotion Officer:** Developing and implementing programs to encourage healthy lifestyles.\n- **Environmental Health Officer:** Working on issues related to environmental factors affecting health.\n\nUTS also offers pathways into specialized postgraduate programs for careers such as speech pathology, podiatry, or medical imaging, depending on your undergraduate degree and interests.\n\nOverall, a health degree from UTS equips graduates with skills in health science, research, communication, and critical thinking, preparing them for diverse roles aimed at improving individual and community health.",
+      "reference": "A health degree at UTS can lead to careers in sports management, physiotherapy, nursing and health education. The text also mentions opportunities such as nurse midwife and public health communicator.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Where can I get help with technical issues in the Computing Unit, and when is someone usually available?",
+      "answer": "At UTS, if you need help with technical issues in the Computing Unit, you can contact the UTS IT Service Desk. They provide support for a wide range of technical problems including software, hardware, and network issues related to your studies.\n\n**Where to get help:**\n- **UTS IT Service Desk**\n  - Location: Level 1, Building 10 (Tower Building), Broadway Campus\n  - Phone: +61 2 9514 8888\n  - Online: You can submit a request or chat via the UTS IT Service Desk website\n  - Email: servicedesk@uts.edu.au\n\n**Availability:**\n- The IT Service Desk is usually available **Monday to Friday, 8:30 AM to 5:30 PM** during teaching weeks.\n- Outside these hours, you can access self-help resources and FAQs on the UTS IT website.\n\nAdditionally, some Computing Unit courses may have dedicated tutors or lab assistants available during scheduled lab sessions or tutorials, so check your unit\u2019s Moodle page or contact your unit coordinator for specific support times.\n\nIf you are on campus, visiting the IT Service Desk in person during business hours is often the quickest way to get help.",
+      "reference": "You can ask the support staff in the offices on the mezzanine level for help with technical issues. There is usually at least one person available between 9 and 5 on weekdays.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "How much does the Guangzhou Winter School cost, and are there any scholarships available?",
+      "answer": "The cost of the Guangzhou Winter School at UTS can vary depending on the specific program and year. Generally, the program fee covers tuition, some activities, and possibly accommodation or meals, but you should check the latest details on the official UTS or Guangzhou Winter School webpage for the exact amount.\n\nRegarding scholarships, UTS often offers scholarships or financial support options for short-term programs like the Guangzhou Winter School. These may include partial fee waivers or travel grants. It is best to consult the UTS International or Global Exchange office, or the specific Winter School program page, to find the most current information about available scholarships and how to apply.\n\nIf you are a UTS student, you can also contact the UTS Global team for personalized advice on funding opportunities for the Guangzhou Winter School.",
+      "reference": "The total program fee is $3,308 for a twin hotel room or $4,050 for a single hotel room. Eligible students may receive up to $3,000 in scholarships, including 15 Dean\u2019s Mobility Scholarships of $2,000 and 10 Global Short Programs Travel Scholarships of $1,000.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.15,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "How can I make it easier to get into study mode when I sit down to work?",
+      "answer": "Getting into study mode can sometimes be challenging, but there are several strategies you can use to make it easier when you sit down to work at UTS or anywhere else:\n\n1. **Create a Dedicated Study Space:** Choose a quiet, comfortable, and well-lit area specifically for studying. This helps your brain associate that space with focus and productivity.\n\n2. **Set Clear Goals:** Before you start, outline what you want to achieve in your study session. Breaking tasks into smaller, manageable chunks can make it less overwhelming.\n\n3. **Eliminate Distractions:** Turn off notifications on your phone or use apps that block distracting websites. Let people around you know you need uninterrupted time.\n\n4. **Use a Routine:** Try to study at the same time each day. A consistent routine trains your brain to expect study time and makes it easier to get started.\n\n5. **Start with a Warm-Up:** Begin with a simple or enjoyable task related to your study to build momentum.\n\n6. **Use the Pomodoro Technique:** Study for 25 minutes, then take a 5-minute break. Repeat this cycle to maintain focus without burnout.\n\n7. **Prepare Materials in Advance:** Have all your notes, textbooks, and resources ready before you begin to avoid interruptions.\n\n8. **Stay Physically Comfortable:** Ensure you have a comfortable chair, good posture, and stay hydrated.\n\n9. **Mindfulness or Breathing Exercises:** A few minutes of deep breathing or mindfulness can help clear your mind and improve concentration.\n\nUTS also offers study support services and workshops through the Learning Centre, which can provide additional tips and strategies tailored to your needs. You can check their website or contact them for more resources.\n\nBy implementing these strategies, you can make it easier to transition into study mode and improve your productivity.",
+      "reference": "Establishing a consistent routine can help your brain switch to study mode more automatically. Setting up the same space and time to study, along with rituals like turning off your phone, using a calendar, listening to particular music, or time blocking, can help you start concentrating.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "Do I need to submit a separate application for scholarships and grants marked with an asterisk?",
+      "answer": "At UTS, if a scholarship or grant is marked with an asterisk (*), it typically means you do **not** need to submit a separate application for it. These scholarships are often automatically considered based on your admission application or other criteria. However, it\u2019s always a good idea to check the specific scholarship details on the UTS website or contact the scholarships office to confirm the application requirements.",
+      "reference": "No. You will automatically be considered for scholarships and grants with an asterisk next to them, and no separate application is required.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8
+    },
+    {
+      "question": "In a reflective task, what should I write about how the experience will affect what I do in the future?",
+      "answer": "In a reflective task at UTS, when writing about how the experience will affect what you do in the future, you should focus on several key points:\n\n1. **Personal Growth:** Describe what you have learned about yourself through the experience. This could include new skills, insights, or attitudes you have developed.\n\n2. **Application of Learning:** Explain how the knowledge or skills gained will influence your future actions, decisions, or behaviour. For example, how you might approach similar situations differently or apply new strategies in your studies or work.\n\n3. **Future Goals:** Reflect on how the experience has shaped or changed your future goals or career aspirations. Consider whether it has motivated you to pursue certain opportunities or avoid particular challenges.\n\n4. **Improvement Areas:** Identify any areas where you need further development and how you plan to address these moving forward.\n\n5. **Broader Impact:** Consider how the experience might affect your interactions with others, your professional practice, or your contribution to your field or community.\n\nBy thoughtfully connecting your experience to your future plans, you demonstrate critical thinking and a commitment to continuous learning, which are highly valued in reflective tasks at UTS.",
+      "reference": "You should describe what you plan to change as a result of the experience and your reflection, or what you would do differently if a similar situation happened again. The example given says to use the SMART goal approach in future projects to help clarify what you want to achieve and how you will achieve it.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What should I include in the body of my assignment when I'm developing my argument?",
+      "answer": "When developing the body of your assignment at UTS, you should focus on clearly presenting and supporting your argument. Here are key elements to include:\n\n1. **Clear Topic Sentences:** Start each paragraph with a sentence that introduces the main idea or point you will discuss, linking it to your overall argument.\n\n2. **Evidence and Examples:** Support your points with relevant evidence such as data, quotes from academic sources, case studies, or examples. Make sure your sources are credible and properly referenced according to UTS guidelines.\n\n3. **Explanation and Analysis:** Don\u2019t just present evidence\u2014explain how it supports your argument. Analyze the significance of the evidence and show how it connects to your thesis.\n\n4. **Critical Thinking:** Engage critically with your sources and ideas. Discuss different perspectives, address counterarguments, and explain why your argument holds stronger.\n\n5. **Coherence and Flow:** Ensure your paragraphs are logically organized and linked with clear transitions, so your argument develops smoothly and is easy to follow.\n\n6. **Relevance:** Stay focused on your assignment question and avoid including unrelated information.\n\nBy including these elements, the body of your assignment will effectively develop and support your argument in a clear, logical, and persuasive way.",
+      "reference": "You should define your terms, give context to the issue, clearly define the problem if there is one, explain why XYZ strategies do or do not work, and support your ideas with evidence from your research and the literature. It also suggests doing your referencing as you go.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "What kinds of experiences can I get at UTS to help me become career-ready?",
+      "answer": "At UTS, you can gain a variety of experiences designed to help you become career-ready, including:\n\n1. **Industry-Integrated Learning:** Many courses at UTS incorporate real-world projects, case studies, and industry collaboration, allowing you to apply your knowledge in practical settings.\n\n2. **Internships and Work Placements:** UTS offers opportunities for internships and work placements with leading companies, giving you hands-on experience and professional networking opportunities.\n\n3. **Career Development Programs:** The UTS Careers service provides workshops, career coaching, resume reviews, and interview preparation to help you develop essential job-seeking skills.\n\n4. **Global Exchange and Study Abroad:** You can participate in exchange programs or study abroad to gain international experience and broaden your cultural understanding.\n\n5. **Research Opportunities:** Engage in research projects alongside academics, which can enhance your problem-solving skills and subject expertise.\n\n6. **Student Clubs and Societies:** Joining clubs related to your field can help you develop teamwork, leadership, and communication skills.\n\n7. **Entrepreneurship and Innovation Programs:** UTS supports entrepreneurial initiatives through incubators and innovation hubs, encouraging you to develop business ideas and start-ups.\n\nThese experiences collectively prepare you for the workforce by building practical skills, professional networks, and a strong understanding of your industry.",
+      "reference": "UTS offers hands-on learning through internships, industry projects, and networking events. The guide says these experiences can help you build the skills needed for a successful career after graduation.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Does the UTS Business School offer one-to-one chats, and if so, are they online and free?",
+      "answer": "Yes, the UTS Business School offers one-to-one chats. These sessions are typically available online and are free of charge, providing students with personalized support and advice on academic and career-related matters. For the most current details and to book a session, it's best to visit the UTS Business School website or contact their student support services directly.",
+      "reference": "Yes. You can book a one-to-one chat with UTS Business School, and it is online with free admission.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.95,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "I'm an international student \u2014 how do I get in touch with UTS about my enquiry?",
+      "answer": "If you are an international student and would like to get in touch with the University of Technology Sydney (UTS) about your enquiry, you can contact the UTS International Office. Here are some ways to reach them:\n\n1. **Email:** You can send your enquiry to international@uts.edu.au  \n2. **Phone:** Call the UTS International Office on +61 2 9514 1151 (note the time difference if you are overseas).  \n3. **Online Enquiry Form:** Visit the UTS website and use the international student enquiry form to submit your questions.  \n4. **Live Chat:** UTS often offers a live chat service on their international admissions webpage for quick questions.  \n5. **Social Media:** You can also reach out via UTS\u2019s official social media channels for guidance.\n\nFor more detailed information, visit the UTS International website: [https://www.uts.edu.au/future-students/international](https://www.uts.edu.au/future-students/international)\n\nThey can assist you with admissions, courses, visas, scholarships, and other international student matters.",
+      "reference": "International students should complete the international student enquiry form. The information provided will be used to respond to the enquiry and may also be used to provide general information about the university.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What Graduate School of Health course area is highlighted on this page?",
+      "answer": "Could you please provide the page or more context you are referring to? This will help me identify the specific Graduate School of Health course area highlighted.",
+      "reference": "The page highlights Medical Science, describing it as blending science and technology to improve patient health outcomes in world-class Medical Science programs.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "question": "If I\u2019m interested in screen directing, where should I look to learn more about related UTS courses and career options?",
+      "answer": "If you're interested in screen directing, you should explore the UTS Faculty of Arts and Social Sciences, particularly the School of Communication. UTS offers courses related to screen directing through its Bachelor of Communication (Media Arts and Production) and other related degrees. \n\nTo learn more about these courses and career options, you can:\n\n1. Visit the UTS website\u2019s course pages for the Bachelor of Communication (Media Arts and Production) and related programs.\n2. Check out the UTS Open Day events or information sessions, where you can speak directly with academic staff and current students.\n3. Explore the UTS Careers portal for information on career pathways in screen directing and the media industry.\n4. Contact UTS Student Services or the Faculty of Arts and Social Sciences for personalized advice and guidance.\n\nThese resources will provide detailed information on course content, industry connections, internships, and career opportunities in screen directing.",
+      "reference": "You can check the UTS website and search Media Arts or Screen Arts to learn more. UTS courses in media arts or screen arts can help you find out where a career in storytelling could take you.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What is U:PASS, and how is it different from tutoring?",
+      "answer": "U:PASS (University Peer Assisted Study Sessions) at UTS is a peer-led academic support program designed to help students succeed in their courses. U:PASS sessions are facilitated by trained senior students who have previously excelled in the subject. These sessions focus on collaborative learning, where students work together to deepen their understanding of course content, develop study strategies, and improve academic skills in a supportive group environment.\n\nThe key differences between U:PASS and traditional tutoring are:\n\n1. **Peer-led vs. Tutor-led:** U:PASS is led by peers (senior students), not professional tutors or lecturers. This peer approach encourages a more relaxed and relatable learning atmosphere.\n\n2. **Collaborative learning:** U:PASS sessions emphasize group discussion and active participation, helping students learn from each other, whereas tutoring often involves one-on-one or small group instruction focused on direct teaching.\n\n3. **Focus on study skills and understanding:** U:PASS aims to develop students\u2019 overall academic skills and conceptual understanding, rather than just providing answers or direct instruction on specific problems.\n\n4. **Free and open to all:** U:PASS sessions are typically free and open to all students enrolled in the relevant course, promoting inclusivity and accessibility.\n\nIn summary, U:PASS complements tutoring by providing a peer-supported, collaborative learning environment that helps students engage more deeply with their studies.",
+      "reference": "U:PASS is a student learning program for subjects that are perceived as difficult or have a high failure rate, mostly first-year subjects. It isn\u2019t tutoring; it offers group-style study sessions run by high-achieving students who recently completed the subject.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What kinds of careers could I have with a science degree at UTS?",
+      "answer": "With a science degree from UTS (University of Technology Sydney), you can pursue a wide range of careers across various industries. UTS offers science programs that emphasize practical skills, industry connections, and innovative research, preparing graduates for diverse roles. Some potential career paths include:\n\n1. **Environmental Scientist** \u2013 Working on sustainability, conservation, and environmental management projects.\n2. **Data Analyst/Scientist** \u2013 Analyzing and interpreting complex data sets in sectors like finance, healthcare, or technology.\n3. **Biotechnologist** \u2013 Developing products and technologies in pharmaceuticals, agriculture, or medical research.\n4. **Laboratory Technician/Research Scientist** \u2013 Conducting experiments and research in academic, government, or private sector labs.\n5. **Health Scientist** \u2013 Engaging in public health, epidemiology, or medical research roles.\n6. **Forensic Scientist** \u2013 Applying scientific methods to criminal investigations.\n7. **Science Communicator/Educator** \u2013 Translating scientific knowledge for the public or teaching in schools and universities.\n8. **Software Developer/IT Specialist** \u2013 Especially if combined with computing or data science studies.\n9. **Geoscientist** \u2013 Working in mining, oil and gas, or environmental consultancy.\n10. **Food Scientist** \u2013 Innovating in food safety, nutrition, and product development.\n\nUTS also offers opportunities for interdisciplinary study and industry placements, which can enhance employability in emerging fields such as renewable energy, artificial intelligence, and biomedical sciences. Additionally, many science graduates pursue further study or professional qualifications to specialize further.\n\nFor more tailored advice, you can consult UTS Careers and Employment services, which provide guidance on career options, internships, and job opportunities related to your specific science major.",
+      "reference": "A science degree can lead to careers in diverse sectors, including business, government, health and education. The text also mentions roles linked to areas like cancer treatment, renewable energy, biostatistics, and crime scene investigation.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What are reporting verbs used for in academic writing?",
+      "answer": "In academic writing, reporting verbs are used to describe or refer to the ideas, arguments, or findings of other authors or sources. They help writers present information from research, literature, or studies in a clear and precise way, indicating how the original author expressed their ideas (e.g., claimed, argued, suggested, demonstrated). Using a variety of reporting verbs allows writers to convey different degrees of certainty, attitude, or emphasis, which is important for critical analysis and engaging with existing scholarship.",
+      "reference": "Reporting verbs are used to integrate citations of original sources when you use others\u2019 ideas. They also help you show your stance on the information and strengthen your arguments.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95
+    },
+    {
+      "question": "What study areas are related to Information Technology at UTS?",
+      "answer": "At the University of Technology Sydney (UTS), study areas related to Information Technology are primarily offered through the Faculty of Engineering and Information Technology. Key related study areas include:\n\n1. **Information Technology** \u2013 Covering software development, networking, cybersecurity, data management, and IT systems.\n2. **Computer Science** \u2013 Focusing on algorithms, programming, artificial intelligence, and computational theory.\n3. **Data Science** \u2013 Emphasizing data analytics, machine learning, big data, and statistical methods.\n4. **Cybersecurity** \u2013 Concentrating on protecting information systems, ethical hacking, and digital forensics.\n5. **Software Engineering** \u2013 Involving software design, development processes, and project management.\n6. **Business Information Systems** \u2013 Combining IT with business processes, focusing on IT management and digital innovation.\n\nUTS also offers interdisciplinary programs and courses that integrate IT with areas such as design, business, and engineering, reflecting the university\u2019s focus on technology and innovation.\n\nFor the most up-to-date and detailed information, you can visit the UTS website\u2019s Faculty of Engineering and Information Technology page.",
+      "reference": "Related study areas include Electrical and Electronic Engineering, Computer Science, Systems Design and Analysis, and Cybersecurity and Networking.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What does critical writing involve, and how is it different from descriptive writing?",
+      "answer": "Critical writing involves analyzing, evaluating, and interpreting information or ideas rather than just describing them. It requires you to engage with the material by questioning assumptions, comparing different perspectives, and presenting a well-reasoned argument supported by evidence. Critical writing demonstrates your ability to think deeply and independently about a topic.\n\nIn contrast, descriptive writing focuses on simply reporting or summarizing information without offering analysis or judgment. It involves stating facts or describing events, concepts, or processes as they are, without exploring their implications or significance.\n\nIn summary, while descriptive writing tells the reader what something is, critical writing explains why it matters and how it fits into a broader context. At UTS, developing critical writing skills is essential for producing high-quality academic work that goes beyond surface-level understanding.",
+      "reference": "Critical writing involves analysing information from more than one perspective, making logical connections between ideas, and offering your own perspective based on the available evidence. Unlike descriptive writing, it goes beyond stating or listing information by evaluating significance, evidence, and alternative explanations.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "Why is reflexivity important in sustainability work?",
+      "answer": "Reflexivity is important in sustainability work because it involves critically reflecting on one\u2019s own values, assumptions, and impacts throughout the process of addressing environmental and social challenges. This self-awareness helps practitioners recognize biases, power dynamics, and the complexity of sustainability issues, leading to more inclusive, ethical, and effective solutions. At UTS, reflexivity supports interdisciplinary collaboration and adaptive learning, ensuring that sustainability initiatives are responsive to diverse perspectives and changing contexts. Ultimately, reflexivity enhances the ability to create meaningful and lasting positive change in sustainability efforts.",
+      "reference": "Reflexivity is the ability to reflect on your own assumptions, values and biases. It is important because blind spots can undermine even well-intentioned projects, and recognising how your perspective shapes your approach helps design solutions that work for people beyond your own experience.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Can I do an unpaid volunteer internship if I don't have free electives or don't want to enrol in a Science Internship subject?",
+      "answer": "At UTS, if you do not have free electives available or do not wish to enrol in a Science Internship subject, you generally cannot receive academic credit for an unpaid volunteer internship through your degree program. The Science Internship subjects are designed to formally recognise and assess your internship experience as part of your course requirements.\n\nHowever, you can still undertake an unpaid volunteer internship outside of your formal study load. While this experience won\u2019t count towards your degree credit, it can be valuable for gaining practical skills, networking, and enhancing your resume.\n\nIf you want the internship to count academically, you would typically need to enrol in the relevant internship subject or have free electives available to substitute. It\u2019s a good idea to speak with your faculty or course coordinator to explore any possible options or exceptions specific to your program.",
+      "reference": "Yes. Students who do not have free electives or do not wish to enrol in a Science Internship subject may complete an unpaid internship as a Faculty-Approved Voluntary Internship. Before committing, they must negotiate the placement details, make sure they are happy with the arrangements, and submit a Voluntary Internship Application through UTS CareerHub.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What do I need to do to keep my US Financial Aid while I'm studying at UTS?",
+      "answer": "To keep your US Financial Aid while studying at the University of Technology Sydney (UTS), you generally need to ensure the following:\n\n1. **Maintain Enrollment Status:**  \n   Most US financial aid programs require you to be enrolled at least half-time. Confirm with your US financial aid office what the minimum enrollment requirements are and ensure you meet them while studying at UTS.\n\n2. **Credit Transfer and Course Approval:**  \n   Make sure the courses you take at UTS are approved by your US institution and will count toward your degree. This is important because your US financial aid is tied to your progress in your degree program.\n\n3. **Satisfactory Academic Progress (SAP):**  \n   Continue to meet the academic progress standards set by your US financial aid provider. This usually means maintaining a certain GPA and completing a required percentage of your courses.\n\n4. **Notify Your US Financial Aid Office:**  \n   Inform your US financial aid office about your study abroad plans at UTS. They can provide specific guidance and ensure your aid is processed correctly.\n\n5. **Complete Required Paperwork:**  \n   You may need to fill out additional forms or provide documentation to your US financial aid office, such as a study abroad approval form or a letter from UTS confirming your enrollment.\n\n6. **Check for Additional Requirements:**  \n   Some US financial aid programs have specific rules for study abroad. Verify if there are any extra steps you need to take.\n\n**Additional Tips:**  \n- Contact the UTS International Office or the Study Abroad Office for support and to ensure your enrollment is properly documented.  \n- Keep copies of all correspondence and official documents related to your study abroad program.\n\nBy following these steps and maintaining communication with your US financial aid office, you can help ensure your financial aid continues while you study at UTS.",
+      "reference": "To remain eligible for US Financial Aid while enrolled, you must maintain full-time enrolment (24 UTS credit points per semester), make satisfactory academic progress, and not enrol in subjects or degrees offered by online or telecommunication delivery in whole or part.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "If my leave of absence is approved, what changes to my fees and campus access should I expect?",
+      "answer": "If your leave of absence at UTS is approved, here is what you can generally expect regarding your fees and campus access:\n\n1. **Fees:**  \n   - You will not be charged tuition fees for the period you are on leave, as you are not enrolled in any subjects during that time.  \n   - However, any fees already paid for the term before your leave may not be refunded, depending on the timing of your application and UTS\u2019s refund policies.  \n   - It\u2019s important to check the specific refund deadlines and policies on the UTS website or contact the Student Centre for detailed information.\n\n2. **Campus Access:**  \n   - While on leave, you will typically lose access to campus facilities that require active enrolment, such as libraries, computer labs, and student services.  \n   - Your student email and online learning platforms (like Moodle) access may also be suspended during your leave period.  \n   - If you need to access any resources during your leave, it\u2019s best to confirm with UTS directly.\n\nBefore applying for leave, it\u2019s advisable to review the official UTS Leave of Absence policy and speak with a student advisor to understand all implications fully.",
+      "reference": "If your application was made on or before the census date, your tuition fees liability will be adjusted for the leave of absence and any credit balance of relevant tuition fees previously paid will be refunded. During your leave, you won\u2019t have access to UTS campus or facilities, the UTS Library (including electronic resources), CareerHub or GITLab, and you\u2019re no longer entitled to a travel concession.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.45,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Are the Yura Mudang Medium Studio virtual tours an exact representation of the room I'll be assigned?",
+      "answer": "The Yura Mudang Medium Studio virtual tours at UTS provide a detailed and accurate representation of the general layout, features, and facilities of the studio spaces. However, they may not reflect the exact room you will be assigned, as there can be slight variations between individual studios in terms of furniture arrangement, equipment, or specific room dimensions. The virtual tours are intended to give you a good sense of the environment and resources available, but your actual assigned room might differ in some details.",
+      "reference": "No. The virtual tours are indicative only and may not represent the exact layout, size, design or inclusions of your assigned room, studio, apartment common areas or residences\u2019 common areas. There is also extremely limited availability of this room type.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "If I need a student conduct report for LPAB admission, what details do I need to send and when should I request it?",
+      "answer": "For a student conduct report required for LPAB (Legal Profession Admission Board) admission at UTS, you typically need to provide the following details when requesting the report:\n\n1. **Your full name and student ID number**  \n2. **Date of birth**  \n3. **Course and year of study**  \n4. **Purpose of the report** (specifically stating it is for LPAB admission)  \n5. **Any specific information or format required by the LPAB** (if known)  \n6. **Contact details** (email and phone number) for any follow-up\n\n**When to request:**  \nIt is best to request the student conduct report well in advance of your LPAB application deadline\u2014ideally at least 4 to 6 weeks before you need to submit your admission documents. This allows sufficient time for processing and for you to address any issues if they arise.\n\nTo request the report, contact the UTS Student Conduct Office or the Student Services team. Check the UTS website or your student portal for the exact procedure and contact details.\n\nIf you are unsure, you can also reach out to the UTS Law Faculty or the LPAB directly for guidance on the report requirements.",
+      "reference": "Email Law.PE@uts.edu.au with your full name, date of birth, and student number. Your degree must be completed and all results finalised before requesting a conduct report, and it is only valid for 6 months so you should request it when preparing your application documents.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "Do international students at UTS apply for different student visas depending on their course?",
+      "answer": "No, international students at UTS do not apply for different student visas based on their specific course. Generally, international students apply for the Australian Student Visa (subclass 500) to study at UTS, regardless of the course or program they are enrolled in. The visa conditions and requirements remain the same, although the course details and duration will be specified in the visa application.",
+      "reference": "No. International students apply for a single student visa (subclass 500) regardless of their chosen course of study. UTS is an approved SSVF provider, and SSVF usually means quicker visa processing with less documentation required.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8
+    },
+    {
+      "question": "Am I eligible to apply for the Commonwealth Prac Payment if I'm a UTS student in teaching, nursing, or midwifery?",
+      "answer": "As a UTS student studying teaching, nursing, or midwifery, you may be eligible to apply for the Commonwealth Supported Places (CSP) Practical Placement Payment (commonly referred to as the Commonwealth Prac Payment). This payment is designed to help students with the costs associated with mandatory practical placements required as part of their degree.\n\nEligibility generally depends on:\n\n- Enrolment in an eligible Commonwealth Supported Place (CSP) course at UTS.\n- Completion of a required practical placement as part of your teaching, nursing, or midwifery program.\n- Meeting any additional criteria set by the Australian Government or UTS, such as citizenship or residency status.\n\nTo confirm your eligibility and apply, you should:\n\n1. Check the UTS Student Portal or contact the UTS Student Centre for specific information about the Commonwealth Prac Payment.\n2. Review the Australian Government Department of Education website for the latest details on the payment.\n3. Ensure you have completed or are enrolled in a practical placement component of your course.\n\nIf you meet the criteria, you can apply through the appropriate channels at UTS or via the government\u2019s application process.\n\nFor the most accurate and up-to-date information, it\u2019s best to consult UTS directly or visit their official website.",
+      "reference": "If you\u2019re a domestic student studying teaching, nursing or midwifery, you may be eligible to apply for a Commonwealth government payment to support your prac placements. The payment is intended to help with ongoing costs while you complete mandatory practical placements.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "I\u2019m no longer a UTS student and I have a Fail grade for a subject. How do I apply for a remission or refund due to special circumstances?",
+      "answer": "If you are no longer a UTS student and you have received a Fail grade for a subject, but you believe special circumstances affected your performance, you may be able to apply for a remission or refund. Here\u2019s what you need to do:\n\n1. **Check Eligibility:**  \n   Special circumstances typically refer to unexpected or uncontrollable events that significantly impacted your ability to complete assessments or attend classes (e.g., serious illness, family emergency). UTS considers these on a case-by-case basis.\n\n2. **Application Process:**  \n   - Visit the UTS website and look for the **Special Consideration** or **Special Circumstances** section under student support or academic policies.  \n   - Since you are no longer enrolled, you will likely need to submit a **Special Circumstances Application for Remission or Refund** form.  \n   - Provide detailed evidence supporting your claim (e.g., medical certificates, statutory declarations).\n\n3. **Submit Your Application:**  \n   - Submit your application and supporting documents to the UTS Student Administration or the relevant faculty office.  \n   - If you are unsure where to send it, contact UTS Student Central via email or phone for guidance.\n\n4. **Outcome:**  \n   - UTS will review your application and notify you of the decision.  \n   - If approved, you may receive a remission of the fail grade or a refund of tuition fees for the subject.\n\n5. **Contact for Assistance:**  \n   - If you need help with the process, contact UTS Student Central:  \n     - Phone: +61 2 9514 1888  \n     - Email: studentcentral@uts.edu.au\n\n**Important:** There are time limits for submitting special circumstances applications, so it\u2019s best to apply as soon as possible after the assessment or grade release.\n\nFor the most accurate and up-to-date information, please refer to the official UTS website or contact UTS directly.",
+      "reference": "If you\u2019re no longer a UTS student and have been withdrawn from your course, register for My Student Portal using your personal email address, then log in to the UTS Student Portal and select Ask UTS to create an enquiry. Choose Submit a Remissions/Refund due to Special Circumstances Form, complete the required fields, and select the course, session, and all subjects for that session.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.35,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7
+    },
+    {
+      "question": "What is the difference between study abroad and exchange at UTS?",
+      "answer": "At UTS, the terms **study abroad** and **exchange** both refer to opportunities for students to study at a partner university overseas, but there are key differences between the two:\n\n- **Exchange:** This program is typically available to UTS students who have a reciprocal agreement with a partner university. Students pay their usual UTS tuition fees and, in return, study at the partner institution without paying additional tuition fees there. The exchange is usually for one or two semesters, and students earn credit towards their UTS degree.\n\n- **Study Abroad:** This option is generally open to both UTS students and students from other universities who want to study at UTS or UTS students who want to study overseas without an exchange agreement. Study abroad students pay tuition fees directly to the host university (not UTS), and the program is often more flexible in terms of duration and course selection. It may be more costly since there is no fee reciprocity.\n\nIn summary, **exchange** involves a fee-waived reciprocal arrangement between UTS and partner universities, while **study abroad** involves paying tuition fees directly to the host institution and is often more flexible but potentially more expensive. Both options allow students to gain international experience and earn credit towards their degree.",
+      "reference": "Study Abroad is open to students from any recognised university or college, and to those who have completed high school, and you pay fees directly to UTS. Exchange is open to students enrolled at a UTS exchange partner institution.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.3,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7
+    },
+    {
+      "question": "What do I need to include with my RPL application for health, and will it be accepted if some documents are missing?",
+      "answer": "For your Recognition of Prior Learning (RPL) application for health courses at UTS, you generally need to include the following:\n\n1. **Detailed Resume or CV** \u2013 outlining your relevant work experience, roles, and responsibilities in the health field.\n2. **Evidence of Prior Learning and Experience** \u2013 this can include:\n   - Certificates or transcripts from previous study or training.\n   - Work samples or portfolios demonstrating your skills.\n   - Letters of reference or verification from employers.\n3. **Statement of Claim** \u2013 a written explanation linking your prior learning and experience to the specific competencies or learning outcomes required by the UTS health course.\n4. **Supporting Documentation** \u2013 such as professional registrations, licenses, or memberships relevant to your health profession.\n\nRegarding missing documents: UTS typically requires comprehensive evidence to assess your RPL application accurately. If some documents are missing, your application may be delayed or not accepted until you provide sufficient evidence. It\u2019s best to contact the UTS admissions or the specific faculty administering the health course to discuss your situation. They may offer guidance on acceptable alternatives or how to proceed if you cannot provide certain documents.\n\nTo ensure your application is successful, gather as much relevant and verifiable evidence as possible before submitting your RPL application.",
+      "reference": "You need copies showing the grading system used, or a verifiable myEquals link to your academic transcript, the Subject Outline for the completed unit, a comparison table from Step 4, and certified evidence of successful clinical placement hours. If your documents are not in English, official certified translations are required, and applications missing these details will not be accepted.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.3,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "Why should I study Urban Planning at UTS?",
+      "answer": "Studying Urban Planning at UTS offers several compelling advantages:\n\n1. **Industry-Relevant Curriculum**: UTS\u2019s Urban Planning program is designed to equip you with practical skills and knowledge that align with current industry standards and challenges, ensuring you are job-ready upon graduation.\n\n2. **Strong Industry Connections**: UTS has strong links with government agencies, planning firms, and community organizations, providing valuable opportunities for internships, networking, and real-world project experience.\n\n3. **Innovative and Sustainable Focus**: The program emphasizes sustainable urban development, smart cities, and innovative planning solutions, preparing you to address contemporary urban challenges such as climate change, population growth, and social equity.\n\n4. **Experienced Academic Staff**: You will learn from academics who are active researchers and practitioners in urban planning, bringing cutting-edge insights and expertise into the classroom.\n\n5. **Location Advantage**: Situated in Sydney, a dynamic and rapidly evolving city, UTS offers a living laboratory for urban planning students to study and engage with real urban environments and projects.\n\n6. **Interdisciplinary Approach**: UTS encourages collaboration across disciplines such as architecture, design, engineering, and social sciences, providing a holistic understanding of urban systems.\n\n7. **Career Opportunities**: Graduates from UTS\u2019s Urban Planning program are well-regarded and find employment in diverse roles within local and state government, private consultancy, community organizations, and international agencies.\n\nChoosing UTS for Urban Planning means gaining a contemporary education that combines theory, practice, and innovation, preparing you to make a meaningful impact on the future of cities.",
+      "reference": "UTS says there is growing demand for urban planning professionals, with shortages in almost every state and territory. The industry is expected to grow by 2,500 jobs by 2026, creating many job opportunities.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.3,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What can a Sport and Exercise Science degree prepare me for?",
+      "answer": "A Sport and Exercise Science degree at the University of Technology Sydney (UTS) can prepare you for a variety of careers related to health, fitness, sports performance, and rehabilitation. This degree provides you with a strong foundation in human physiology, biomechanics, nutrition, psychology, and exercise prescription. Graduates are equipped to work in roles such as:\n\n- Exercise physiologist or clinical exercise specialist, helping individuals manage chronic diseases and improve health through exercise.\n- Sports scientist or performance analyst, supporting athletes and teams to enhance performance.\n- Fitness instructor or personal trainer, designing and delivering exercise programs for diverse populations.\n- Rehabilitation assistant, working alongside physiotherapists or other health professionals.\n- Health promotion officer, developing community programs to encourage physical activity and healthy lifestyles.\n- Research assistant or coordinator in sports science or health-related fields.\n\nAdditionally, the degree can serve as a pathway to further study in areas like physiotherapy, occupational therapy, or advanced research degrees. UTS\u2019s strong industry connections and practical learning opportunities, including internships and labs, help prepare you for real-world professional environments.",
+      "reference": "A Sport and Exercise Science degree can prepare you for life on and beyond the field. The text says it can lead to areas like coaching, athlete management, and the science of human movement.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "How do I join Conversations@UTS, and what is it for?",
+      "answer": "Conversations@UTS is a platform designed to foster dialogue and engagement within the University of Technology Sydney community. It provides opportunities for students, staff, and sometimes external participants to discuss a wide range of topics related to university life, research, innovation, and current issues.\n\nTo join Conversations@UTS, you typically need to:\n\n1. **Check the UTS Website or Internal Communications:** Information about upcoming Conversations@UTS events or forums is usually posted on the official UTS website, student portals, or via university email communications.\n\n2. **Register for Events:** Many Conversations@UTS sessions require prior registration. This can often be done online through the event page or via a link provided in announcements.\n\n3. **Participate Online or In-Person:** Depending on the format, you may join the conversation through online platforms (such as Zoom or Microsoft Teams) or attend in person at designated campus locations.\n\nIf you are unsure where to find the latest information or how to register, you can contact the UTS Student Services or the relevant faculty office for guidance.\n\nIn summary, Conversations@UTS is for engaging with the UTS community on important topics, sharing ideas, and contributing to the university\u2019s collaborative culture. Joining involves staying informed about events and registering to participate.",
+      "reference": "Just turn up to a session and check the HELPS web page for session times. Conversations@ UTS helps students practise English conversation skills, meet new people, and build confidence in casual conversations at university, socially, and at work.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6
+    },
+    {
+      "question": "Is the Yura Mudang Large Studio virtual tour an exact representation of the room I would get?",
+      "answer": "The Yura Mudang Large Studio virtual tour at UTS provides a detailed and accurate representation of the room's layout, design, and features. However, it may not capture every minor detail or reflect current furnishings and decor exactly, as these can vary slightly over time or between individual rooms. Therefore, while the virtual tour is a very useful guide to what you can expect, it may not be an exact, one-to-one representation of the specific room you would be allocated.",
+      "reference": "No. The virtual tours are indicative only and may not represent the exact layout, size, design or inclusions of your assigned room, studio, apartment common areas or residences\u2019 common areas.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.3,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What is the Brennan Justice and Leadership Program, and is it free to join?",
+      "answer": "The Brennan Justice and Leadership Program at the University of Technology Sydney (UTS) is a specialized program designed to develop students' leadership skills with a focus on justice, social impact, and ethical leadership. It offers opportunities for students to engage in workshops, mentoring, and practical experiences that enhance their understanding of justice-related issues and prepare them for leadership roles in their communities and professions.\n\nYes, the Brennan Justice and Leadership Program is free to join for UTS students. It is an extracurricular program aimed at enriching the student experience without additional cost.",
+      "reference": "The Brennan Justice and Leadership Program is a free, voluntary program for UTS Law students. It aims to strengthen students\u2019 justice consciousness, idealism and sense of service.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "What skills will I develop in the Juris Doctor, and can it lead to non-legal careers too?",
+      "answer": "In the Juris Doctor (JD) program at the University of Technology Sydney (UTS), you will develop a comprehensive set of skills that are highly valued both within and beyond the legal profession. These skills include:\n\n1. **Critical Thinking and Analytical Skills** \u2013 You will learn to analyze complex legal problems, interpret legislation and case law, and develop well-reasoned arguments.\n\n2. **Research Skills** \u2013 The program emphasizes advanced legal research techniques, enabling you to locate, evaluate, and apply relevant information effectively.\n\n3. **Communication Skills** \u2013 You will enhance your ability to communicate clearly and persuasively, both in writing and orally, which is essential for advocacy, negotiation, and client interaction.\n\n4. **Problem-Solving Abilities** \u2013 The JD trains you to approach issues creatively and strategically, finding practical solutions within legal and regulatory frameworks.\n\n5. **Ethical and Professional Responsibility** \u2013 You will gain a strong understanding of legal ethics and professional conduct, preparing you to uphold integrity in your work.\n\n6. **Interpersonal and Negotiation Skills** \u2013 Through group work, moot courts, and practical exercises, you will develop skills in collaboration, negotiation, and conflict resolution.\n\nRegarding career pathways, while the JD is primarily designed to prepare you for a career as a legal practitioner, the skills you acquire are highly transferable. Graduates often pursue non-legal careers in areas such as:\n\n- **Business and Corporate Management**\n- **Government and Public Policy**\n- **Compliance and Risk Management**\n- **Human Resources**\n- **Consulting**\n- **Academia and Research**\n- **Media and Communications**\n\nThe analytical, research, and communication skills developed in the JD make graduates attractive candidates for a wide range of roles that require critical thinking and problem-solving abilities.\n\nIn summary, the UTS Juris Doctor equips you with versatile skills that open doors to both traditional legal careers and diverse opportunities in other professional fields.",
+      "reference": "The Juris Doctor helps you develop advanced professional skills such as critical thinking, communication and problem-solving. It can support a successful legal or non-legal career.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What is the census date at UTS?",
+      "answer": "The census date at UTS (University of Technology Sydney) is the final date by which students can withdraw from their units without financial or academic penalty. The exact census date varies each session and for each unit, but it typically falls around the midpoint of the teaching period.\n\nFor the most accurate and up-to-date information, you should check the UTS Academic Calendar or the specific session dates on the UTS website. Alternatively, you can log into your student portal where census dates for your enrolled units will be listed.",
+      "reference": "The census date is the last day to withdraw from a subject without incurring academic penalty and financial liability.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "What is the recommended way to collect my testamur if I\u2019m eligible to attend a graduation ceremony?",
+      "answer": "If you are eligible to attend a graduation ceremony at UTS, the recommended way to collect your testamur is to attend the ceremony in person. Testamurs are typically presented to graduates during the ceremony itself. If you attend, you will receive your testamur on the day. If you are unable to attend the ceremony, UTS usually provides alternative arrangements, such as collecting your testamur from the university at a later date or having it mailed to you. It\u2019s best to check the specific instructions provided by UTS for your graduation session for detailed information.",
+      "reference": "UTS encourages eligible students to collect their testamur at a graduation ceremony.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What is the value of the UTS Scholarship for European Undergraduate Students, and who is it for?",
+      "answer": "The UTS Scholarship for European Undergraduate Students provides a value of up to AUD 10,000. It is intended for high-achieving undergraduate students from European countries who wish to study at the University of Technology Sydney. This scholarship supports students by helping to offset tuition fees and encourages academic excellence and cultural exchange.",
+      "reference": "The scholarship is valued at 40% of UTS tuition fees. It is for commencing international students from Europe enrolling in an undergraduate coursework program at UTS in Sydney.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8
+    },
+    {
+      "question": "What do UTS Business Mentors do for students?",
+      "answer": "UTS Business Mentors provide support and guidance to students interested in entrepreneurship and business development. They offer practical advice, share industry experience, help students refine their business ideas, and assist with networking opportunities. Through mentoring, students gain valuable insights into starting and managing a business, develop their skills, and increase their chances of success in their entrepreneurial ventures.",
+      "reference": "UTS Business Mentors are high-performing students embedded in tutorials and workshops who guide students on class activities. They act as a bridge between the teaching team and students, and senior mentors may also provide one-on-one support to identified students.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.15,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8
+    },
+    {
+      "question": "When do applications for the Resident Networker program usually open, and how will residents hear about them?",
+      "answer": "Applications for the Resident Networker program at UTS usually open early in the academic year, often around the beginning of the semester. Residents typically hear about the application process through official UTS Residential Life communications, such as emails, newsletters, and announcements posted on the UTS Residential Life website or student portals. Additionally, information may be shared during orientation events and through Resident Advisors or Residential Life staff. It\u2019s a good idea for residents to regularly check these channels to stay informed about application opening dates.",
+      "reference": "Applications usually open in May and October each year. Once applications open, all residents will receive an email with further details and a link to the application form.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.2,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "How many supervisors are on a UTS HDR student\u2019s supervisory panel, and can one of them be external to UTS?",
+      "answer": "At UTS, a Higher Degree by Research (HDR) student\u2019s supervisory panel typically consists of at least two supervisors. Yes, one of the supervisors can be external to UTS, provided they meet the university\u2019s criteria for external supervision and contribute relevant expertise to the student\u2019s research project.",
+      "reference": "A supervisory panel must have at least two supervisors: a principal supervisor and an alternate (or co-supervisor). Alternate or co-supervisors may be external to UTS.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.85,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "I\u2019m an international student looking to enquire about secondary education\u2014how do I get in touch?",
+      "answer": "If you\u2019re an international student looking to enquire about secondary education at UTS, you can get in touch with the UTS International Admissions team. Here are some ways to contact them:\n\n- **Email:** You can send your questions to international.admissions@uts.edu.au  \n- **Phone:** Call the UTS International Office on +61 2 9514 1151 (note the time difference)  \n- **Online Enquiry Form:** Visit the UTS website and use the international enquiries form to submit your questions directly.  \n- **Live Chat:** UTS often offers a live chat service on their international admissions webpage for real-time assistance.\n\nAdditionally, you can check the UTS website\u2019s international admissions section for detailed information about entry requirements related to secondary education qualifications from your country.\n\nIf you need specific advice about your secondary education credentials and how they meet UTS entry requirements, the International Admissions team will be the best point of contact.",
+      "reference": "International students should get in touch by completing the international student enquiry form. The information you provide will be used to respond to your enquiry and may also be used to provide you with general information about the university.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What\u2019s the difference between an appeal and a complaint at UTS?",
+      "answer": "At UTS, the key difference between an appeal and a complaint lies in their purpose and the issues they address:\n\n- **Appeal:** An appeal is a formal request to review a specific decision made by the university that directly affects a student, such as academic results, assessment outcomes, or disciplinary actions. Appeals are typically based on grounds like procedural errors, new evidence, or unfair treatment related to that decision.\n\n- **Complaint:** A complaint is an expression of dissatisfaction about a service, process, or behavior at the university that does not necessarily involve a formal decision. Complaints can relate to issues like staff conduct, facilities, administrative services, or general student experience.\n\nIn summary, appeals challenge specific decisions affecting a student\u2019s academic or disciplinary status, while complaints address broader concerns about university services or conduct.",
+      "reference": "An appeal is a formal opportunity to have an academic or administrative decision reconsidered by the university. A complaint is about being wrongly treated by the university or a staff member, or about things related to your experience at UTS.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "What OS-HELP loan amounts can I apply for in 2026 if I\u2019m studying outside Asia?",
+      "answer": "For 2026, if you are a UTS student planning to study outside Asia, you can apply for an OS-HELP loan of up to **AUD 7,812**. \n\nOS-HELP loan amounts are indexed annually, and the maximum loan for study outside Asia is generally higher than for study within Asia. This amount is intended to help with travel and living expenses while studying overseas.\n\nFor the most accurate and updated information, it\u2019s always best to check the official UTS website or the Australian Government\u2019s Study Assist page closer to your study period.",
+      "reference": "For a six-month study period outside Asia in 2026, you can choose one of three OS-HELP loan amounts: $2500, $4500, or $8442, which is the maximum loan amount.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.1,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5
+    },
+    {
+      "question": "How can smart design make small spaces feel bigger and more livable?",
+      "answer": "Smart design can make small spaces feel bigger and more livable by maximizing functionality, enhancing natural light, and creating a sense of openness. At UTS, principles of smart design often emphasize the following strategies:\n\n1. **Multi-functional Furniture:** Using furniture that serves multiple purposes, such as fold-out beds, storage ottomans, or extendable tables, helps save space and reduces clutter.\n\n2. **Built-in Storage Solutions:** Integrating storage into walls, under stairs, or within furniture keeps belongings organized and out of sight, making the space feel less crowded.\n\n3. **Light and Color:** Utilizing light colors on walls and furniture, along with ample natural light, can make rooms appear larger and more inviting. Mirrors can also reflect light and create an illusion of depth.\n\n4. **Open Layouts:** Minimizing partitions and using open-plan designs allow for better flow and flexibility, making small areas feel more expansive.\n\n5. **Vertical Space Utilization:** Taking advantage of vertical space with tall shelves or hanging storage draws the eye upward and frees up floor space.\n\n6. **Smart Technology Integration:** Incorporating smart home devices can streamline living by automating lighting, climate control, and entertainment, reducing the need for bulky equipment.\n\nBy thoughtfully combining these design elements, small spaces can be transformed into comfortable, efficient, and aesthetically pleasing environments that enhance livability despite limited square footage.",
+      "reference": "By making immediate changes to the home environment and thinking about how to double-use different spaces. Instead of treating a bedroom or hallway as only one thing, you can add new uses to make the space more efficient and interesting.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.7,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9
+    },
+    {
+      "question": "What is studying architecture at UTS like?",
+      "answer": "Studying architecture at the University of Technology Sydney (UTS) offers a dynamic and innovative learning experience that combines creative design, technical skills, and real-world application. The Bachelor of Design in Architecture and the Master of Architecture programs at UTS are known for their strong emphasis on sustainability, digital technologies, and collaborative projects.\n\nKey aspects of studying architecture at UTS include:\n\n1. **Industry-Relevant Curriculum:** UTS integrates contemporary architectural practices and emerging technologies such as parametric design, digital fabrication, and Building Information Modelling (BIM) into its courses. This prepares students for the evolving demands of the architecture profession.\n\n2. **Hands-On Learning:** Students engage in studio-based learning, where they work on design projects individually and in teams. These studios encourage experimentation, critical thinking, and problem-solving, often addressing real-world challenges.\n\n3. **Interdisciplinary Collaboration:** UTS promotes collaboration across different design and engineering disciplines, reflecting the integrated nature of architectural projects in professional practice.\n\n4. **Access to Facilities:** The university provides state-of-the-art facilities, including digital workshops, fabrication labs, and software resources, enabling students to prototype and develop their designs effectively.\n\n5. **Industry Connections and Work Experience:** UTS has strong links with architectural firms and industry partners, offering students opportunities for internships, networking, and exposure to professional environments.\n\n6. **Focus on Sustainability and Urban Design:** The program encourages students to consider environmental impact, social context, and urban integration in their designs, aligning with global trends towards sustainable architecture.\n\n7. **Location:** Situated in Sydney, a vibrant and architecturally diverse city, students benefit from exposure to a wide range of architectural styles and ongoing urban development projects.\n\nOverall, studying architecture at UTS is a comprehensive experience that balances creative exploration with practical skills, preparing graduates to contribute meaningfully to the architecture and built environment sectors.",
+      "reference": "Studying architecture is very hands on, involving making and drawing. It is a very different kind of degree and is very creative.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.75,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "When do most of the pharmacy master's programs start, and are there any that start in a different session?",
+      "answer": "Most of the pharmacy master's programs at UTS typically start in the Autumn session (February/March). However, some programs may offer a start in the Spring session (July), so it is important to check the specific course details on the UTS website or contact the admissions office for the exact start dates of each program.",
+      "reference": "Most of the programs commence in the Autumn Session. The Good Manufacturing Practice courses start in both the Autumn and Spring Sessions.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.6,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.3
+    },
+    {
+      "question": "How are students selected for a mooting competition team, and what do they need to do if they\u2019re successful?",
+      "answer": "At the University of Technology Sydney (UTS), students are typically selected for the mooting competition team through a competitive process that may include written applications, interviews, and/or preliminary moot rounds to assess their advocacy skills, legal research, and oral presentation abilities.\n\nIf students are successful in being selected for the mooting team, they are usually required to:\n\n- Attend regular training sessions and workshops to develop their mooting skills.\n- Participate in team meetings and preparation sessions for the specific competition.\n- Conduct thorough legal research and prepare written submissions (moot books or memorials).\n- Represent UTS at the mooting competition, which may involve travel if the competition is held interstate or overseas.\n- Commit to the time and effort needed to prepare and compete effectively.\n\nFor precise details, students should consult the UTS Faculty of Law or the Mooting Coordinator, as selection processes and requirements can vary between competitions and academic years.",
+      "reference": "Shortlisted applicants are interviewed by an academic panel, which assesses academic merit, research skills and/or oral advocacy skills. Successful applicants are invited to join a moot team and must prepare written memorials and take part in intensive advocacy training before the oral rounds.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.65,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.85
+    },
+    {
+      "question": "How much does a UTS student pay for a day membership at UTS Startups, and what kind of desk do they get?",
+      "answer": "A UTS student pays $5 for a day membership at UTS Startups. With this day membership, they get access to a hot desk, which is a flexible workspace that can be used on a first-come, first-served basis.",
+      "reference": "UTS students and full-time staff from the last 12 months pay $50 per day plus GST for a day membership. It includes a hot desk that must be cleared at the end of the day.",
+      "sources": [],
+      "source_hit": 0,
+      "correctness": 0.1,
+      "faithfulness": 0.0,
+      "answer_relevancy": 1.0
+    }
+  ]
+}

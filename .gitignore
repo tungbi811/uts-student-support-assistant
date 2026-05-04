@@ -8,10 +8,9 @@
 .venv/
 
 # Data (large files)
-data/faiss_index/
+data/faiss_index*/
 data/raw_pages.json
-data/chunks.json
-data/eval_results.json
+data/chunks*.json
 
 # Python
 __pycache__/
