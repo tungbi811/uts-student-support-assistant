@@ -21,8 +21,16 @@ st.markdown("""
 <style>
 #MainMenu, footer, header {visibility: hidden;}
 
+/* Light mode app background */
 [data-testid="stAppViewContainer"] {
     background: #f5f6fa;
+}
+
+/* Dark mode: let Streamlit's own background take over */
+@media (prefers-color-scheme: dark) {
+    [data-testid="stAppViewContainer"] {
+        background: var(--background-color);
+    }
 }
 
 .uts-header {
@@ -51,9 +59,9 @@ div[data-testid="stButton"] button {
     font-size: 0.8rem;
     padding: 0.35rem 1.2rem;
     border-radius: 1.5rem;
-    border: 1px solid #d1d5db;
-    background: white;
-    color: #374151;
+    border: 1px solid #b3d9ee;
+    background: #e8f4fb;
+    color: #00467F;
     white-space: nowrap;
     text-align: left;
     height: auto;
@@ -63,7 +71,21 @@ div[data-testid="stButton"] button {
 div[data-testid="stButton"] button:hover {
     border-color: #00A9CE;
     color: #00467F;
-    background: #f0f8ff;
+    background: #d0ecf8;
+}
+
+/* Dark mode pills */
+@media (prefers-color-scheme: dark) {
+    div[data-testid="stButton"] button {
+        background: var(--secondary-background-color);
+        color: var(--text-color);
+        border-color: #4a5568;
+    }
+    div[data-testid="stButton"] button:hover {
+        border-color: #00A9CE;
+        color: #00A9CE;
+        background: var(--secondary-background-color);
+    }
 }
 
 /* Citation badge with tooltip */
