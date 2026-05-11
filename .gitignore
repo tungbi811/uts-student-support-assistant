@@ -9,8 +9,8 @@
 
 # Data (large files)
 data/faiss_index*/
-data/raw_pages.json
-data/chunks*.json
+# data/raw_pages.json
+# data/chunks*.json
 
 # Python
 __pycache__/
