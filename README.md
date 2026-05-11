@@ -4,11 +4,38 @@ A RAG-based chatbot that answers student questions about UTS policies, enrolment
 
 ## Architecture
 
+The system runs in two distinct phases:
+
+**Offline — Ingestion Pipeline**
 ```
-scraper.py → chunker.py → embedder.py → [FAISS index]
-                                               ↓
-                                           rag.py ← app.py (Streamlit UI)
+UTS Webpages
+     ↓
+Web Scraping / Data Collection  (scraper.py)
+     ↓
+Text Preprocessing + Semantic Chunking  (chunker.py)
+     ↓
+Embedding Model  (embedder.py)
+     ↓
+Vector Database [FAISS index]
 ```
+
+**Online — Retrieval & Generation**
+```
+UTS Student Natural Language Question
+     ↓
+Embedding Model  (query embedding)
+     ↓
+Retrieve Relevant Chunks  ←  Vector Database [FAISS index]
+     ↓
+System Prompt  (strictly follow retrieved info, include citations)
+     +  Retrieved Passages
+     ↓
+LLM API
+     ↓
+Response with Citations & Sources  →  UTS Student
+```
+
+`rag.py` implements the online pipeline; `app.py` exposes it via the Streamlit UI.
 
 ## Setup
 
